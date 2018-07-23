@@ -17,6 +17,7 @@ body {
     direction: rtl;
     text-align: right;
     color: var(--white);
+    background-color: #fFF6f9;
 }
 
 a {
