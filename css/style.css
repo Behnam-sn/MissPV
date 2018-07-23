@@ -5,6 +5,7 @@
     --gray: #d9d9d9;
     --orange: #FFBE3D;
     --black: #5D5D5D;
+    --background: #fFF6f9;
 }
 
 @font-face {
@@ -18,7 +19,7 @@ body {
     direction: rtl;
     text-align: right;
     color: var(--white);
-    background-color: #fFF6f9;
+    background-color: var(--background);
 }
 
 a {
@@ -132,7 +133,7 @@ header p {
 }
 
 .page {
-    margin: 10vw 0 10vw 15vw;
+    margin: 10vw 0 0 15vw;
     font-size: 1vw;
 }
 
@@ -140,18 +141,20 @@ header p {
     color: black;
     font-weight: bold;
     font-size: 2vw;
+    margin-bottom: 2vw;
 }
 
-.page img{
+.page img {
     width: 1vw;
 }
 
 .detail {
     font-size: 1vw;
     line-height: 1.5vw;
+    margin-bottom: 4vw;
 }
 
-#page-down {
+.page-down {
     width: 25vw;
     margin: 0 auto;
 }
@@ -169,4 +172,20 @@ header p {
     font-size: 1vw;
     background: linear-gradient(to right, #FD3077, #FF7777);
     border-radius: 0;
+    margin-top: 1vw;
+}
+
+.slide-img {
+    background: linear-gradient(to right, #FD3077, #FF7777);
+    border-radius: 50%;
+    border: 1vw solid var(--background);
+    width: 45vw;
+    height: 45vw;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.slide-img img{
+    width: 35vw;
 }
