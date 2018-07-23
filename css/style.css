@@ -1,16 +1,34 @@
 :root {
+    --main: #FD3077;
     --second: #DA2B68;
     --white: #f2f2f2;
     --gray: #d9d9d9;
+    --orange: #FFBE3D;
+}
+
+@font-face {
+    font-family: Segoe UI;
+    src: url("../font/Segoe-UI.ttf");
 }
 
 body {
+    font-family: Segoe UI;
+    font-weight: bold;
     direction: rtl;
     text-align: right;
+    color: var(--white);
+}
+
+a {
+    cursor: pointer;
 }
 
 nav {
     background-color: var(--red);
+}
+
+#icon {
+    width: 10vw;
 }
 
 .nav--link {
@@ -34,4 +52,74 @@ nav {
 
 #nav--link-ex {
     margin-right: auto;
+}
+
+#header {
+    background: url("../img/back1.png");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header {
+    margin: 7vw 0 39vw 0;
+}
+
+.header-container {
+    width: 33vw;
+}
+
+.buttonInside {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+header input {
+    font-size: .8vw;
+    height: 3.2vw;
+    width: 100%;
+    padding-right: 2vw;
+    border-radius: 3vw;
+    border: none;
+    outline: none;
+}
+
+#button {
+    font-size: .7vw;
+    background-color: var(--main);
+    color: white;
+    position: absolute;
+    left: .3vw;
+    top: .3vw;
+    border: none;
+    height: 2.6vw;
+    width: 9vw;
+    border-radius: 3vw;
+    outline: none;
+    text-align: center;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+.line {
+    display: block;
+    margin: 2vw 0;
+    border-style: solid;
+    border-color: var(--orange);
+    border-width: .1vw;
+    height: .3vw;
+    background-color: var(--orange);
+}
+
+header h1 {
+    font-size: 1.9vw;
+    font-weight: bold;
+    margin-top: 2vw;
+}
+
+header p {
+    font-size: 1vw;
+    line-height: 1.8vw;
 }

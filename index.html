@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script> -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 450px)" href="css/smallscreen.css">
 </head>
@@ -19,7 +21,7 @@
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark">
         <a href="#">
-            <img src="img/icon.png" alt="">
+            <img src="img/icon.png" id="icon" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -35,7 +37,30 @@
             </div>
         </div>
     </nav>
-    <div id="upheader"></div>
+    <div class="container-fluid" id="header">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <header class="col-md">
+                <div class="header-container">
+                    <div class="buttonInside">
+                        <input type="text" placeholder="محصول یا برند مورد نظر خود را وارد کنید...">
+                        <button id="button" type="submit">
+                            جستوجو
+                        </button>
+                    </div>
+                </div>
+                <div class="header-container">
+                    <h1>لورم ایپسوم متن ساختگی با تولید سادگی</h1>
+                    <hr class="line">
+                    <p class="text-justify">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صــنعت چاپ و با استفاده از طراحان گرافیک است. چاپــگرها
+                        و متون بلــکه روزنـــامــه و مجله در ستون و سطرآنــچنان کــــه لازم اســــت و برای شرایــــط فــعلی
+                        تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                    </p>
+                </div>
+            </header>
+            <div class="col-md-5"></div>
+        </div>
+    </div>
     <slide></slide>
     <main></main>
     <footer></footer>
