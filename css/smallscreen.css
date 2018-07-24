@@ -1,54 +1,53 @@
-#icon {
-    width: auto;
-    margin-right: 45%;
+nav #icon {
+  width: auto;
+  margin-right: 45%;
 }
 
-.nav--link {
-    font-size: 5vw;
-    padding: 1.7vw 0;
+nav .navbar-nav,
+nav #link-ex {
+  margin: 0;
 }
 
-#nav--item {
-    margin: 0;
+nav .nav-item {
+  font-size: 5vw;
+  padding: 1.7vw 0;
 }
 
-#nav--link-ex {
-    margin: 0;
+header {
+  background: url("../img/back2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: var(--black);
 }
 
-#header {
-    height: 150vw;
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: top left;
-    color: var(--black);
+header #header-up {
+  height: 110vw;
 }
 
-#header-up{
-    height: 80vw;
+.header {
+  margin-bottom: 0;
 }
-
 
 .header-container {
-    width: 100%;
+  width: 100%;
 }
 
 .buttonInside {
-    display: none;
+  display: none;
 }
 
-.line {
-    margin: 5vw 0;
-    border-width: .1vw;
-    height: 1.5vw;
+header hr {
+  margin: 5vw 0;
+  border-width: 0.1vw;
+  height: 1.5vw;
 }
 
 header h1 {
-    font-size: 5.5vw;
-    margin-top: 2vw;
+  font-size: 5.5vw;
+  margin-top: 2vw;
 }
 
 header p {
-    font-size: 4vw;
-    line-height: 6vw;
+  font-size: 4vw;
+  line-height: 6vw;
 }
