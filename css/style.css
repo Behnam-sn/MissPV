@@ -185,3 +185,24 @@ header p {
   border-radius: 0;
   margin-top: 1vw;
 }
+
+main {
+  color: black;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 2vw;
+}
+
+#head-bar h2 {
+  font-size: 1.3vw;
+}
+
+.bg-one {
+  background-color: #ff7777;
+}
+
+.bg-two {
+  background-color: #b52d2d;
+}
