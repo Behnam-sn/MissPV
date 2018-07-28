@@ -135,8 +135,8 @@ header p {
   background: linear-gradient(to right, #fd3077, #ff7777);
   border-radius: 50%;
   border: 1vw solid var(--background);
-  width: 45vw;
-  height: 45vw;
+  width: 50vw;
+  height: 100vh;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
