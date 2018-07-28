@@ -247,3 +247,32 @@ main h1 {
 .product .row {
   padding-top: 30px;
 }
+
+footer {
+  background-color: var(--main);
+  height: 40vh;
+}
+
+#footer-button {
+  color: white;
+}
+
+#footer-button input {
+  color: white;
+  background-color: var(--main);
+  outline: none;
+  border: 1px solid;
+  border-radius: 5px;
+  height: 3vw;
+  width: 15vw;
+}
+
+#footer-button button {
+  color: var(--main);
+  background-color: white;
+  border: 1px solid;
+  border-radius: 5px;
+  outline: none;
+  height: 3vw;
+  width: 8vw;
+}
