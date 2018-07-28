@@ -223,3 +223,27 @@ main h1 {
   text-align: right;
   padding: 0.7vw 0;
 }
+
+.product {
+  font-size: 0.8vw;
+}
+
+.product span {
+  color: black;
+  font-size: 2vw;
+  font-weight: bolder;
+}
+
+.product button {
+  width: 100%;
+  font-size: 1vw;
+  padding: 1vw 0;
+  color: white;
+  background: linear-gradient(to right, #fd3077, #ff7777);
+  border-radius: 0;
+  margin-top: 1vw;
+}
+
+.product .row {
+  padding-top: 30px;
+}
