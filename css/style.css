@@ -28,7 +28,7 @@ a,
 
 nav {
   background-color: var(--second);
-  height: 10vh;
+  /* height: 10vh; */
 }
 
 nav #icon {
@@ -60,7 +60,6 @@ nav #link-ex {
 
 header {
   background: url("../img/back1.png");
-  /* height: 89vh; */
   background-repeat: no-repeat;
   background-size: contain;
 }
