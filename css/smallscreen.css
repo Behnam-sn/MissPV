@@ -53,6 +53,15 @@ header p {
   line-height: 6vw;
 }
 
+.prev,
+.next {
+  top: 24%;
+}
+
+#left {
+  color: white;
+}
+
 #slide {
   padding-top: 10vw;
   height: 100%;
