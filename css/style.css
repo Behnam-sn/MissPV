@@ -222,7 +222,9 @@ header p {
 .slide-img {
   background: linear-gradient(to right, #fd3077, #ff7777);
   border-radius: 50%;
-  border: 1vw solid var(--background);
+  border: 1vw solid;
+  border-color: var(--background);
+
   width: 50vw;
   height: 100vh;
   display: table-cell;
