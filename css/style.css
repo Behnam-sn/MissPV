@@ -65,7 +65,7 @@ header {
 }
 
 .header {
-  margin: 7vw 0 35vw 0;
+  margin: 7vw 0 25vw 0;
 }
 
 .header-container {
@@ -224,9 +224,8 @@ header p {
   border-radius: 50%;
   border: 1vw solid;
   border-color: var(--background);
-
   width: 50vw;
-  height: 100vh;
+  height: 47.5vw;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
