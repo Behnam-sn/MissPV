@@ -146,3 +146,49 @@ header p {
   padding: 6vw 0;
   margin: 0 6vw;
 }
+
+footer {
+  /* height: 100vh; */
+}
+
+footer img {
+  width: 60%;
+  height: auto;
+}
+
+#footer-block h1 {
+  font-size: 7vw;
+}
+
+#footer-block a {
+  font-size: 3.5vw;
+  margin: 3.5vw 0;
+}
+
+footer .container-fluid {
+  padding-top: 5vh;
+  padding-bottom: 0vh;
+}
+
+#footer-button {
+  font-size: 3vw;
+}
+
+#footer-button input {
+  border: 0.4vw solid;
+  border-radius: 1vw;
+  height: 10vw;
+  width: 55vw;
+  margin-left: 4vw;
+}
+
+#footer-button button {
+  border: white 0.4vw solid;
+  border-radius: 1vw;
+  height: 10vw;
+  width: 25vw;
+}
+
+#copyright p {
+  font-size: 2.8vw;
+}

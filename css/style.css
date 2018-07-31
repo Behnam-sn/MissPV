@@ -350,6 +350,37 @@ footer a:hover {
   text-decoration: none;
 }
 
+footer img {
+  width: 100%;
+  height: auto;
+}
+
+#footer-block {
+  direction: ltr;
+}
+
+#footer-block .col-md-4,
+#footer-block .col-md-8 {
+  direction: rtl;
+}
+
+#footer-block h1 {
+  font-size: 2vw;
+}
+
+#footer-block a {
+  font-size: 1vw;
+  font-weight: normal;
+  display: block;
+  margin: 1vw 0;
+}
+
+footer .container-fluid {
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  /* padding: 40px 0 40px 0; */
+}
+
 #footer-button {
   color: white;
   font-size: 0.8vw;
@@ -359,29 +390,22 @@ footer a:hover {
   color: white;
   background-color: var(--main);
   outline: none;
-  border: 1px solid;
-  border-radius: 5px;
+  border: 0.1vw solid;
+  border-radius: 0.3vw;
   height: 3vw;
   width: 18vw;
   margin-left: 1vw;
 }
 
 #footer-button button {
-  color: var(--main);
+  color: black;
   background-color: white;
-  border: white 1px solid;
-  border-radius: 5px;
+  border: white 0.1vw solid;
+  border-radius: 0.3vw;
   outline: none;
   height: 3vw;
   width: 8vw;
   cursor: pointer;
-}
-
-#enama {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
 }
 
 #ftp::placeholder {
@@ -395,30 +419,15 @@ footer a:hover {
   color: white;
 }
 
-#footer-block {
-  direction: ltr;
-}
-
-#footer-block .col-md-4,
-#footer-block .col-md-8 {
-  direction: rtl;
-}
-
-#footer-block a {
-  font-size: 14px;
-  font-weight: normal;
-  display: block;
-  margin: 10px 0;
-}
-
-footer .container-fluid {
-  padding-top: 5vw;
-  padding-bottom: 2.5vw;
-  /* padding: 40px 0 40px 0; */
+#enama {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 #copyright {
-  height: 2.5vw;
+  height: 5vh;
   background-color: #ca235d;
   display: flex;
   justify-content: center;
