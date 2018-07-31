@@ -65,11 +65,7 @@ header {
 }
 
 .header {
-<<<<<<< HEAD
-  margin: 7vw 0 27vw 0;
-=======
   margin: 7vw 0 25vw 0;
->>>>>>> product
 }
 
 .header-container {
@@ -228,7 +224,7 @@ header p {
   border: 1vw solid;
   border-color: var(--background);
   width: 50vw;
-  height: 47.4vw;
+  height: 100vh;
   display: table-cell;
   text-align: center;
   vertical-align: middle;
