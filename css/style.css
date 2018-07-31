@@ -279,6 +279,7 @@ header p {
 main {
   color: black;
   text-align: center;
+  margin-bottom: 10vw;
 }
 
 main h1 {
@@ -337,7 +338,6 @@ main h1 {
 
 footer {
   background-color: var(--main);
-  height: 40vh;
   color: white;
 }
 
@@ -352,6 +352,7 @@ footer a:hover {
 
 #footer-button {
   color: white;
+  font-size: 0.8vw;
 }
 
 #footer-button input {
@@ -361,17 +362,18 @@ footer a:hover {
   border: 1px solid;
   border-radius: 5px;
   height: 3vw;
-  width: 15vw;
+  width: 18vw;
 }
 
 #footer-button button {
   color: var(--main);
   background-color: white;
-  border: 1px solid;
+  border: white 1px solid;
   border-radius: 5px;
   outline: none;
   height: 3vw;
   width: 8vw;
+  cursor: pointer;
 }
 
 #enama {
@@ -390,4 +392,40 @@ footer a:hover {
 
 #ftp::-ms-input-placeholder {
   color: white;
+}
+
+#footer-block {
+  direction: ltr;
+}
+
+#footer-block .col-md-4,
+#footer-block .col-md-8 {
+  direction: rtl;
+}
+
+#footer-block a {
+  font-size: 14px;
+  font-weight: normal;
+  display: block;
+  margin: 10px 0;
+}
+
+footer .container-fluid {
+  padding-top: 5vw;
+  padding-bottom: 2.5vw;
+  /* padding: 40px 0 40px 0; */
+}
+
+#copyright {
+  height: 2.5vw;
+  background-color: #ca235d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#copyright p {
+  margin: 0;
+  font-size: 0.8vw;
+  font-weight: normal;
 }
