@@ -1,3 +1,6 @@
+nav {
+  height: 15vh;
+}
 nav #icon {
   width: auto;
   margin-right: 45%;
@@ -18,15 +21,15 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   color: var(--black);
-  height: 105vh;
-}
-
-header #header-up {
-  height: 110vw;
+  height: 85vh;
 }
 
 .header {
-  margin-bottom: 0;
+  margin: auto 0 3vw 0;
+}
+
+.hh {
+  height: 100%;
 }
 
 .header-container {
