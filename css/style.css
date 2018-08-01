@@ -175,7 +175,8 @@ header p {
 }
 
 .mySlides1,
-.mySlides2 {
+.mySlides2,
+.mySlides3 {
   display: none;
 }
 
@@ -202,6 +203,11 @@ header p {
   background-color: #454545;
 }
 
+.dot3 {
+  background-color: #ff7777;
+  cursor: pointer;
+}
+
 .active1,
 .dot1:hover {
   background-color: #717171;
@@ -210,6 +216,11 @@ header p {
 .active2,
 .dot2:hover {
   background-color: var(--main);
+}
+
+.active3,
+.dot3:hover {
+  background-color: #b52d2d;
 }
 
 #slide {
@@ -300,10 +311,10 @@ main h1 {
 .bg-one {
   background-color: #ff7777;
 }
-
+/* 
 .bg-two {
   background-color: #b52d2d;
-}
+} */
 
 .menu-img {
   text-align: left;
