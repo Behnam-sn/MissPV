@@ -317,9 +317,13 @@ main h1 {
   font-size: 0.8vw;
 }
 
+.product h4 {
+  font-size: 1.3vw;
+}
+
 .product span {
   color: black;
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-weight: bolder;
 }
 
@@ -333,7 +337,15 @@ main h1 {
   margin-top: 1vw;
 }
 
-.product .row {
+.card {
+  margin-top: 9vw;
+  padding-top: 16vw;
+  position: relative;
+}
+
+.card-img-top {
+  position: absolute;
+  bottom: 19vw;
 }
 
 footer {
