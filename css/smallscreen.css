@@ -124,12 +124,21 @@ header p {
   padding: 5px 0;
 }
 
+main {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .product {
   font-size: 2.8vw;
 }
 
+.product h4 {
+  font-size: 4.5vw;
+}
+
 .product span {
-  font-size: 6vw;
+  font-size: 4vw;
 }
 
 .product button {
@@ -138,13 +147,22 @@ header p {
   margin-bottom: 3vw;
 }
 
-.product .row {
-  padding-top: 0;
-}
-
 .product .col-md-4 {
   padding: 6vw 0;
   margin: 0 6vw;
+}
+
+.card {
+  margin-top: 25vw;
+  padding-top: 60vw;
+}
+
+.card-img-top {
+  bottom: 65vw;
+}
+
+.card-body {
+  padding: 4vw;
 }
 
 footer {
