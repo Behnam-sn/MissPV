@@ -280,6 +280,8 @@ main {
   color: black;
   text-align: center;
   margin-bottom: 10vw;
+  margin-left: 11vw;
+  margin-right: 11vw;
 }
 
 main h1 {
@@ -346,6 +348,15 @@ main h1 {
 .card-img-top {
   position: absolute;
   bottom: 19vw;
+}
+
+.card-body {
+  padding: 1.5vw;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
 }
 
 footer {
