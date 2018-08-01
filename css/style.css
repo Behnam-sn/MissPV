@@ -206,6 +206,7 @@ header p {
 .dot3 {
   background-color: #ff7777;
   cursor: pointer;
+  color: white;
 }
 
 .active1,
@@ -307,14 +308,6 @@ main h1 {
   width: 100%;
   height: auto;
 }
-
-.bg-one {
-  background-color: #ff7777;
-}
-/* 
-.bg-two {
-  background-color: #b52d2d;
-} */
 
 .menu-img {
   text-align: left;
