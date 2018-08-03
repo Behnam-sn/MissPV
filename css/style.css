@@ -188,8 +188,8 @@ header p {
 .dot1,
 .dot2 {
   cursor: pointer;
-  height: 13px;
-  width: 13px;
+  height: 1vw;
+  width: 1vw;
   margin: 0 2px;
   border-radius: 50%;
   display: inline-block;
@@ -433,31 +433,31 @@ footer .container-fluid {
 }
 
 .input {
+  background-color: var(--main);
   height: 3vw;
   width: 18vw;
   border: 0.1vw solid white;
   border-radius: 0.3vw;
   margin-left: 1vw;
-  background-color: var(--main);
 }
 
 .input input {
   color: white;
   background-color: var(--main);
-  outline: none;
-  border: none;
   height: 100%;
   width: 100%;
+  outline: none;
+  border: none;
   padding: 1vw;
 }
 
 .button {
   color: black;
   background-color: white;
-  border: white 0.1vw solid;
-  border-radius: 0.3vw;
   height: 3vw;
   width: 8vw;
+  border: white 0.1vw solid;
+  border-radius: 0.3vw;
 }
 
 .button button {
@@ -475,7 +475,6 @@ footer .container-fluid {
 #ftp:-ms-input-placeholder {
   color: white;
 }
-
 #ftp::-ms-input-placeholder {
   color: white;
 }

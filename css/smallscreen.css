@@ -1,5 +1,5 @@
 nav {
-  height: 15vh;
+  /* height: 15vh; */
 }
 nav #icon {
   width: auto;
@@ -59,6 +59,11 @@ header p {
 .prev,
 .next {
   top: 23%;
+}
+.dot1,
+.dot2 {
+  height: 3vw;
+  width: 3vw;
 }
 
 #left {
