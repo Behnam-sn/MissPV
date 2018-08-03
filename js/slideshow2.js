@@ -1,6 +1,9 @@
 var slideIndex2 = 1;
 showSlides2(slideIndex2);
 
+var myIndex2 = 0;
+carousel2();
+
 function plusSlides2(n) {
   showSlides2((slideIndex2 += n));
 }
@@ -27,10 +30,9 @@ function showSlides2(n) {
   }
   slides2[slideIndex2 - 1].style.display = "block";
   dots2[slideIndex2 - 1].className += " active2";
+  dots2[slideIndex2 + 4 - 1].className += " active2";
+  myIndex2 = slideIndex2;
 }
-
-var myIndex2 = 0;
-carousel2();
 
 function carousel2() {
   var i;
@@ -38,6 +40,8 @@ function carousel2() {
   var dots = document.getElementsByClassName("dot2");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active2", "");
   }
   myIndex2++;
@@ -46,5 +50,6 @@ function carousel2() {
   }
   slides[myIndex2 - 1].style.display = "block";
   dots[myIndex2 - 1].className += " active2";
+  dots[myIndex2 + 4 - 1].className += " active2";
   setTimeout(carousel2, 4000); // Change image every 2 seconds
 }

@@ -1,9 +1,13 @@
 nav {
   /* height: 15vh; */
 }
+
+#nav-search {
+  display: block;
+}
 nav #icon {
   width: auto;
-  margin-right: 45%;
+  margin-right: 4vw;
 }
 
 nav .navbar-nav,
@@ -78,6 +82,7 @@ header p {
 .slide-img {
   width: 93vw;
   height: 93vw;
+  border: 3vw solid var(--background);
 }
 
 .slide-img img {
@@ -117,6 +122,14 @@ header p {
   font-size: 4vw;
   padding: 3vw 0;
   margin-bottom: 3vw;
+}
+
+#slideshow-2-dots1 {
+  display: block;
+}
+
+#slideshow-2-dots2 {
+  display: none;
 }
 
 .menu-img {
@@ -170,6 +183,9 @@ main h1 {
 .card {
   margin-top: 20vw;
   padding-top: 65vw;
+  border: none;
+  border-radius: 3.6vw;
+  box-shadow: 0 3vw 6vw rgba(0, 0, 0, 0.175) !important;
 }
 
 .card-img-top {

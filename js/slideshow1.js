@@ -1,6 +1,9 @@
 var slideIndex = 1;
 showSlides(slideIndex);
 
+var myIndex = 0;
+carousel();
+
 function currentSlide(n) {
   showSlides((slideIndex = n));
 }
@@ -23,10 +26,8 @@ function showSlides(n) {
   }
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active1";
+  myIndex = slideIndex;
 }
-
-var myIndex = 0;
-carousel();
 
 function carousel() {
   var i;

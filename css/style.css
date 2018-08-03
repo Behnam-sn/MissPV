@@ -31,6 +31,10 @@ nav {
   /* height: 10vh; */
 }
 
+#nav-search {
+  display: none;
+}
+
 nav #icon {
   width: 10vw;
 }
@@ -231,19 +235,17 @@ header p {
 #slide {
   color: var(--black);
   background-color: #fff;
-  height: 94vh;
 }
 
 .slide-img {
   background: linear-gradient(to right, #fd3077, #ff7777);
   border-radius: 50%;
-  border: 1vw solid;
-  border-color: var(--background);
+  border: 1vw solid var(--background);
   width: 46vw;
-  height: 94vh;
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
+  height: 46vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .slide-img img {
@@ -292,7 +294,12 @@ header p {
   margin-top: 1vw;
 }
 
-#slideshow-2-dots {
+#slideshow-2-dots1 {
+  height: 6vh;
+  display: none;
+}
+
+#slideshow-2-dots2 {
   height: 6vh;
 }
 
@@ -323,11 +330,13 @@ main h1 {
 .menu-img {
   text-align: left;
   padding: 0.7vw 0;
+  margin-left: 0.5vw;
 }
 
 .menu-text {
   text-align: right;
   padding: 0.7vw 0;
+  margin-left: 0.5vw;
 }
 
 .menu-right {
@@ -368,6 +377,9 @@ main h1 {
   margin-top: 7vw;
   padding-top: 18vw;
   position: relative;
+  border: none;
+  border-radius: 0.7vw;
+  box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.175) !important;
 }
 
 .card-img-top {
