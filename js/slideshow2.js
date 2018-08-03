@@ -28,3 +28,23 @@ function showSlides2(n) {
   slides2[slideIndex2 - 1].style.display = "block";
   dots2[slideIndex2 - 1].className += " active2";
 }
+
+var myIndex2 = 0;
+carousel2();
+
+function carousel2() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides2");
+  var dots = document.getElementsByClassName("dot2");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+    dots[i].className = dots[i].className.replace(" active2", "");
+  }
+  myIndex2++;
+  if (myIndex2 > slides.length) {
+    myIndex2 = 1;
+  }
+  slides[myIndex2 - 1].style.display = "block";
+  dots[myIndex2 - 1].className += " active2";
+  setTimeout(carousel2, 4000); // Change image every 2 seconds
+}
