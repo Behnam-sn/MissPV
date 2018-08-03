@@ -175,10 +175,6 @@ main h1 {
   padding: 4vw;
 }
 
-footer {
-  /* height: 100vh; */
-}
-
 footer img {
   width: 60%;
   height: auto;
@@ -198,23 +194,27 @@ footer .container-fluid {
   padding-bottom: 0vh;
 }
 
-#footer-button {
+#footer-search {
   font-size: 3vw;
 }
 
-#footer-button input {
-  border: 0.4vw solid;
+.input {
+  border: 0.4vw solid white;
   border-radius: 1vw;
   height: 10vw;
   width: 55vw;
   margin-left: 4vw;
 }
 
-#footer-button button {
-  border: white 0.4vw solid;
+.button {
+  border: 0.4vw solid white;
   border-radius: 1vw;
   height: 10vw;
   width: 25vw;
+}
+
+.input input {
+  padding: 3vw;
 }
 
 #copyright p {

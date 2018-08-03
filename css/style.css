@@ -178,6 +178,7 @@ header p {
 .mySlides2,
 .mySlides3 {
   display: none;
+  /* transition: all 0.6s ease; */
 }
 
 .text {
@@ -425,34 +426,47 @@ footer img {
 footer .container-fluid {
   padding-top: 10vh;
   padding-bottom: 5vh;
-  /* padding: 40px 0 40px 0; */
 }
 
-#footer-button {
-  color: white;
-  font-size: 0.8vw;
+#footer-search {
+  font-size: 0.9vw;
 }
 
-#footer-button input {
+.input {
+  height: 3vw;
+  width: 18vw;
+  border: 0.1vw solid white;
+  border-radius: 0.3vw;
+  margin-left: 1vw;
+  background-color: var(--main);
+}
+
+.input input {
   color: white;
   background-color: var(--main);
   outline: none;
-  border: 0.1vw solid;
-  border-radius: 0.3vw;
-  height: 3vw;
-  width: 18vw;
-  margin-left: 1vw;
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding: 1vw;
 }
 
-#footer-button button {
+.button {
   color: black;
   background-color: white;
   border: white 0.1vw solid;
   border-radius: 0.3vw;
-  outline: none;
   height: 3vw;
   width: 8vw;
+}
+
+.button button {
+  background-color: white;
+  border: none;
+  outline: none;
   cursor: pointer;
+  height: 100%;
+  width: 100%;
 }
 
 #ftp::placeholder {
