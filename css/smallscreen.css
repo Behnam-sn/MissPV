@@ -129,6 +129,16 @@ main {
   margin-right: 0;
 }
 
+main h1 {
+  font-size: 5vw;
+  margin-top: 6vw;
+  margin-bottom: 5vw;
+}
+
+#head-bar h2 {
+  font-size: 3.4vw;
+}
+
 .product {
   font-size: 2.8vw;
 }
@@ -153,8 +163,8 @@ main {
 }
 
 .card {
-  margin-top: 25vw;
-  padding-top: 60vw;
+  margin-top: 20vw;
+  padding-top: 65vw;
 }
 
 .card-img-top {
@@ -209,4 +219,8 @@ footer .container-fluid {
 
 #copyright p {
   font-size: 2.8vw;
+}
+
+#links {
+  margin-right: 13vw;
 }
