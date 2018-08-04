@@ -232,11 +232,11 @@ header p {
 }
 
 .active3 {
-  background-color: #b52d2d;
+  background-color: #b52d2d !important;
 }
 
 .dot3:hover {
-  background-color: #bf2222;
+  background-color: var(--second);
 }
 
 #slide {
@@ -381,7 +381,6 @@ main h1 {
 .page button:focus {
   background-position: right center;
 }
-
 .card {
   margin-top: 7vw;
   padding-top: 18vw;
