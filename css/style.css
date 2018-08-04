@@ -367,7 +367,8 @@ main h1 {
     #ff7777 40%,
     #fd3077 100%
   );
-  border-radius: 0;
+  border: none;
+  outline: none;
   margin-top: 1vw;
   transition: all 0.7s ease-in-out;
   background-size: 300% 100%;
