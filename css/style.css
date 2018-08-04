@@ -22,8 +22,15 @@ body {
 }
 
 a,
-.buttonInside button:hover {
+button,
+.dot1,
+.dot2,
+.dot3 {
   cursor: pointer;
+}
+
+button:focus {
+  outline: none;
 }
 
 nav {
@@ -153,7 +160,6 @@ header p {
 
 .prev,
 .next {
-  cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
@@ -191,7 +197,6 @@ header p {
 
 .dot1,
 .dot2 {
-  cursor: pointer;
   height: 1vw;
   width: 1vw;
   margin: 0 2px;
@@ -210,7 +215,6 @@ header p {
 
 .dot3 {
   background-color: #ff7777;
-  cursor: pointer;
   color: white;
   transition: background-color 0.6s ease;
 }
@@ -371,11 +375,20 @@ main h1 {
   font-size: 1vw;
   padding: 1vw 0;
   color: white;
-  background: linear-gradient(to right, #fd3077, #ff7777);
+  background-image: linear-gradient(
+    to right,
+    #fd3077 0%,
+    #ff7777 40%,
+    #fd3077 100%
+  );
   border-radius: 0;
   margin-top: 1vw;
+  transition: all 0.7s ease-in-out;
+  background-size: 300% 100%;
 }
-
+.product button:focus {
+  background-position: right center;
+}
 .card {
   margin-top: 7vw;
   padding-top: 18vw;
@@ -384,69 +397,55 @@ main h1 {
   border-radius: 0.7vw;
   box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.175) !important;
 }
-
 .card-img-top {
   position: absolute;
   bottom: 19vw;
 }
-
 .card-body {
   padding: 1.5vw;
 }
-
 .card img {
   width: 100%;
   height: auto;
 }
-
 footer {
   background-color: var(--main);
   color: white;
 }
-
 footer a {
   color: white;
 }
-
 footer a:hover {
   color: white;
   text-decoration: none;
 }
-
 footer img {
   width: 100%;
   height: auto;
 }
-
 #footer-block {
   direction: ltr;
 }
-
 #footer-block .col-md-4,
 #footer-block .col-md-8 {
   direction: rtl;
 }
-
 #footer-block h1 {
   font-size: 2vw;
 }
-
 #footer-block a {
   font-size: 1vw;
   font-weight: normal;
   display: block;
   margin: 1vw 0;
 }
-
 footer .container-fluid {
   padding-top: 10vh;
   padding-bottom: 5vh;
 }
-
 #footer-search {
   font-size: 0.9vw;
 }
-
 .input {
   background-color: var(--main);
   height: 3vw;
@@ -455,7 +454,6 @@ footer .container-fluid {
   border-radius: 0.3vw;
   margin-left: 1vw;
 }
-
 .input input {
   color: white;
   background-color: var(--main);
@@ -465,7 +463,6 @@ footer .container-fluid {
   border: none;
   padding: 1vw;
 }
-
 .button {
   color: black;
   background-color: white;
@@ -474,16 +471,13 @@ footer .container-fluid {
   border: white 0.1vw solid;
   border-radius: 0.3vw;
 }
-
 .button button {
   background-color: white;
   border: none;
   outline: none;
-  cursor: pointer;
   height: 100%;
   width: 100%;
 }
-
 #ftp::placeholder {
   color: white;
 }
@@ -493,14 +487,12 @@ footer .container-fluid {
 #ftp::-ms-input-placeholder {
   color: white;
 }
-
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
-
 #copyright {
   height: 5vh;
   background-color: #ca235d;
@@ -508,7 +500,6 @@ footer .container-fluid {
   justify-content: center;
   align-items: center;
 }
-
 #copyright p {
   margin: 0;
   font-size: 0.8vw;
