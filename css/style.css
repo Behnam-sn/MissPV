@@ -29,10 +29,6 @@ button,
   cursor: pointer;
 }
 
-button:focus {
-  outline: none;
-}
-
 nav {
   background-color: var(--second);
   /* height: 10vh; */
