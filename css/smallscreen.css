@@ -1,6 +1,7 @@
 #nav-search {
-  display: block;
+  /* display: block; */
 }
+
 nav #icon {
   width: auto;
   margin-right: 4vw;
@@ -54,6 +55,10 @@ header h1 {
 header p {
   font-size: 4vw;
   line-height: 6vw;
+}
+
+.dot3 {
+  padding: 3vw 0;
 }
 
 .prev,
