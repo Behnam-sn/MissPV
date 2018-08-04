@@ -227,9 +227,12 @@ header p {
   transform: scale(1.3);
 }
 
-.active3,
-.dot3:hover {
+.active3 {
   background-color: #b52d2d;
+}
+
+.dot3:hover {
+  background-color: #bf2222;
 }
 
 #slide {
@@ -241,8 +244,8 @@ header p {
   background: linear-gradient(to right, #fd3077, #ff7777);
   border-radius: 50%;
   border: 1vw solid var(--background);
-  width: 46vw;
-  height: 46vw;
+  width: 45vw;
+  height: 45vw;
   display: flex;
   justify-content: center;
   align-items: center;
