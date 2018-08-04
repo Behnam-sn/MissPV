@@ -175,9 +175,9 @@ header p {
   color: white;
 }
 
-.prev:hover,
+/* .prev:hover,
 .next:hover {
-}
+} */
 
 .mySlides1,
 .mySlides2,
@@ -355,6 +355,146 @@ main h1 {
   font-weight: bolder;
 }
 
+.card {
+  margin-top: 7vw;
+  padding-top: 18vw;
+  position: relative;
+  border: none;
+  border-radius: 0.7vw;
+  box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.175) !important;
+}
+
+.card-img-top {
+  position: absolute;
+  bottom: 19vw;
+}
+
+.card-body {
+  padding: 1.5vw;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: var(--main);
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+footer img {
+  width: 100%;
+  height: auto;
+}
+
+#footer-block {
+  direction: ltr;
+}
+
+#footer-block .col-md-4,
+#footer-block .col-md-8 {
+  direction: rtl;
+}
+
+#footer-block h1 {
+  font-size: 2vw;
+}
+
+#footer-block a {
+  font-size: 1vw;
+  font-weight: normal;
+  display: block;
+  margin: 1vw 0;
+}
+
+footer .container-fluid {
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+}
+
+#footer-search {
+  font-size: 0.9vw;
+}
+
+.input {
+  background-color: var(--main);
+  height: 3vw;
+  width: 18vw;
+  border: 0.1vw solid white;
+  border-radius: 0.3vw;
+  margin-left: 1vw;
+}
+
+.input input {
+  color: white;
+  background-color: var(--main);
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 1vw;
+}
+
+.button {
+  color: black;
+  background-color: white;
+  height: 3vw;
+  width: 8vw;
+  border: white 0.1vw solid;
+  border-radius: 0.3vw;
+}
+
+.button button {
+  background-color: white;
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+}
+
+#ftp::placeholder {
+  color: white;
+}
+
+#ftp:-ms-input-placeholder {
+  color: white;
+}
+
+#ftp::-ms-input-placeholder {
+  color: white;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#copyright {
+  height: 5vh;
+  background-color: #ca235d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#copyright p {
+  margin: 0;
+  font-size: 0.8vw;
+  font-weight: normal;
+}
+
 .product button,
 .page button {
   width: 100%;
@@ -373,123 +513,8 @@ main h1 {
   transition: all 0.7s ease-in-out;
   background-size: 300% 100%;
 }
+
 .product button:focus,
 .page button:focus {
   background-position: right center;
-}
-.card {
-  margin-top: 7vw;
-  padding-top: 18vw;
-  position: relative;
-  border: none;
-  border-radius: 0.7vw;
-  box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.175) !important;
-}
-.card-img-top {
-  position: absolute;
-  bottom: 19vw;
-}
-.card-body {
-  padding: 1.5vw;
-}
-.card img {
-  width: 100%;
-  height: auto;
-}
-footer {
-  background-color: var(--main);
-  color: white;
-}
-footer a {
-  color: white;
-}
-footer a:hover {
-  color: white;
-  text-decoration: none;
-}
-footer img {
-  width: 100%;
-  height: auto;
-}
-#footer-block {
-  direction: ltr;
-}
-#footer-block .col-md-4,
-#footer-block .col-md-8 {
-  direction: rtl;
-}
-#footer-block h1 {
-  font-size: 2vw;
-}
-#footer-block a {
-  font-size: 1vw;
-  font-weight: normal;
-  display: block;
-  margin: 1vw 0;
-}
-footer .container-fluid {
-  padding-top: 10vh;
-  padding-bottom: 5vh;
-}
-#footer-search {
-  font-size: 0.9vw;
-}
-.input {
-  background-color: var(--main);
-  height: 3vw;
-  width: 18vw;
-  border: 0.1vw solid white;
-  border-radius: 0.3vw;
-  margin-left: 1vw;
-}
-.input input {
-  color: white;
-  background-color: var(--main);
-  height: 100%;
-  width: 100%;
-  outline: none;
-  border: none;
-  padding: 1vw;
-}
-.button {
-  color: black;
-  background-color: white;
-  height: 3vw;
-  width: 8vw;
-  border: white 0.1vw solid;
-  border-radius: 0.3vw;
-}
-.button button {
-  background-color: white;
-  border: none;
-  outline: none;
-  height: 100%;
-  width: 100%;
-}
-#ftp::placeholder {
-  color: white;
-}
-#ftp:-ms-input-placeholder {
-  color: white;
-}
-#ftp::-ms-input-placeholder {
-  color: white;
-}
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-#copyright {
-  height: 5vh;
-  background-color: #ca235d;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#copyright p {
-  margin: 0;
-  font-size: 0.8vw;
-  font-weight: normal;
 }
