@@ -291,16 +291,6 @@ header p {
   font-weight: bolder;
 }
 
-.page button {
-  width: 100%;
-  font-size: 1vw;
-  padding: 1vw 0;
-  color: white;
-  background: linear-gradient(to right, #fd3077, #ff7777);
-  border-radius: 0;
-  margin-top: 1vw;
-}
-
 #slideshow-2-dots1 {
   height: 6vh;
   display: none;
@@ -370,7 +360,8 @@ main h1 {
   font-weight: bolder;
 }
 
-.product button {
+.product button,
+.page button {
   width: 100%;
   font-size: 1vw;
   padding: 1vw 0;
@@ -386,9 +377,11 @@ main h1 {
   transition: all 0.7s ease-in-out;
   background-size: 300% 100%;
 }
-.product button:focus {
+.product button:focus,
+.page button:focus {
   background-position: right center;
 }
+
 .card {
   margin-top: 7vw;
   padding-top: 18vw;
