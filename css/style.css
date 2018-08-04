@@ -445,6 +445,7 @@ footer .container-fluid {
   outline: none;
   border: none;
   padding: 1vw;
+  border-radius: 0.3vw;
 }
 
 .button {

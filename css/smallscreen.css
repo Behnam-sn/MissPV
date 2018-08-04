@@ -238,6 +238,7 @@ footer .container-fluid {
 
 .input input {
   padding: 3vw;
+  border-radius: 1vw;
 }
 
 #copyright p {
