@@ -522,4 +522,6 @@ footer .container-fluid {
 .product button:focus,
 .page button:focus {
   background-position: right center;
+  outline: 0;
+  box-shadow: 0 0 0 0.2vw #ff9999;
 }

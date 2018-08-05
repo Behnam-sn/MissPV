@@ -1,13 +1,17 @@
 t = true;
+var icon = document.getElementById("icon");
+var input = document.getElementById("search-input");
 
 function search() {
   if (t == true) {
-    document.getElementById("icon").style.display = "none";
-    document.getElementById("search-input").style.display = "block";
+    icon.style.display = "none";
+    input.style.display = "block";
+    // input.className = input.className.replace(" now-out", " now-active");
     t = false;
   } else {
-    document.getElementById("icon").style.display = "block";
-    document.getElementById("search-input").style.display = "none";
+    icon.style.display = "block";
+    input.style.display = "none";
+    // input.className = input.className.replace(" now-active", " now-out");
     t = true;
   }
 }
