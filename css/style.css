@@ -33,8 +33,9 @@ nav {
   background-color: var(--second);
 }
 
-#nav-search {
-  /* display: none; */
+#nav-search,
+#search-input {
+  display: none;
 }
 
 nav #icon {
@@ -342,7 +343,6 @@ main h1 {
   border-radius: 6px 0 0 6px;
   border-right: 4px var(--second) solid;
 }
-
 .product {
   font-size: 0.8vw;
 }
@@ -465,15 +465,18 @@ footer .container-fluid {
   width: 100%;
 }
 
-#ftp::placeholder {
+#ftp::placeholder,
+#search-input::placeholder {
   color: white;
 }
 
-#ftp:-ms-input-placeholder {
+#ftp:-ms-input-placeholder,
+#search-input:-ms-input-placeholder {
   color: white;
 }
 
-#ftp::-ms-input-placeholder {
+#ftp::-ms-input-placeholder,
+#search-input::-ms-input-placeholder {
   color: white;
 }
 
