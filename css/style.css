@@ -282,10 +282,8 @@ header p {
   margin: 0 auto;
 }
 
-.page span {
-  color: black;
-  font-size: 2vw;
-  font-weight: bolder;
+.page-down .price {
+  font-size: 2vw !important;
 }
 
 #slideshow-2-dots1 {
@@ -503,7 +501,7 @@ footer .container-fluid {
 }
 
 .button button {
-  background-color: white;
+  background-color: #ffffff;
   border: none;
   outline: none;
   height: 100%;

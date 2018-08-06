@@ -51,5 +51,4 @@ function carousel2() {
   slides[myIndex2 - 1].style.display = "block";
   dots[myIndex2 - 1].className += " active2";
   dots[myIndex2 + 4 - 1].className += " active2";
-  setTimeout(carousel2, 4000); // Change image every 2 seconds
 }

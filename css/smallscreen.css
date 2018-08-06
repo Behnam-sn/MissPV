@@ -77,7 +77,6 @@
 
 nav #icon {
   width: auto;
-  margin-right: 4vw;
 }
 
 nav .navbar-nav,
@@ -149,7 +148,7 @@ header p {
 }
 
 #slide {
-  padding-top: 10vw;
+  padding-top: 3vw;
   height: 100%;
 }
 
@@ -164,7 +163,7 @@ header p {
 }
 
 .page {
-  margin: 10vw 0 0 0;
+  margin: 2vw 0 0 0;
   font-size: 4vw;
 }
 
@@ -188,8 +187,8 @@ header p {
   font-size: 3vw;
 }
 
-.page span {
-  font-size: 6vw;
+.page-down .price {
+  font-size: 6vw !important;
 }
 
 .page button {
