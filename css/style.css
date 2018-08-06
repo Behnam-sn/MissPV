@@ -544,11 +544,17 @@ footer .container-fluid {
   outline: none;
   margin-top: 1vw;
   transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -webkit-transition: all 0.7s ease-in-out;
   background-size: 300% 100%;
 }
 .product button:focus,
 .page button:focus {
-  background-position: right center;
+  background-position: 100% 0;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -webkit-transition: all 0.7s ease-in-out;
   outline: 0;
   box-shadow: 0 0 0 0.2vw #ff9999;
 }
