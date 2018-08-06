@@ -322,16 +322,24 @@ main h1 {
   height: auto;
 }
 
-.menu-img {
-  text-align: left;
-  padding: 0;
-  margin-left: 0.5vw;
+#topic1::before {
+  content: url("../img/pills.png");
 }
 
-.menu-text {
-  text-align: right;
-  padding: 0;
-  margin-left: 2.5vw;
+#topic2::before {
+  content: url("../img/venus.png");
+}
+
+#topic3::before {
+  content: url("../img/icon2.png");
+}
+
+#topic1::before,
+#topic2::before,
+#topic3::before {
+  position: relative;
+  bottom: -0.6vw;
+  left: 0.3vw;
 }
 
 .menu-right {
