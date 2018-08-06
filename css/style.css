@@ -218,6 +218,7 @@ header p {
   background-color: #ff7777;
   color: white;
   transition: background-color 0.6s ease;
+  -webkit-transition: background-color 0.6s ease;
   width: 100%;
   padding: 1.4vw 0;
 }
@@ -574,7 +575,6 @@ footer .container-fluid {
 .product button:focus,
 .page button:focus {
   background-position: 100% 0;
-  background: blue;
   outline: 0;
   box-shadow: 0 0 0 0.2vw #ff9999;
 }
