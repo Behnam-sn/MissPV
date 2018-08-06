@@ -574,10 +574,7 @@ footer .container-fluid {
 .product button:focus,
 .page button:focus {
   background-position: 100% 0;
-  transition: background-position 0.7s ease-in-out;
-  -moz-transition: background-position 0.7s ease-in-out;
-  -o-transition: background-position 0.7s ease-in-out;
-  -webkit-transition: background-position 0.7s ease-in-out;
+  background: blue;
   outline: 0;
   box-shadow: 0 0 0 0.2vw #ff9999;
 }
