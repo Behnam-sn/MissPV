@@ -298,6 +298,21 @@ main h1 {
   font-size: 2.9vw;
 }
 
+.large::before {
+  bottom: -1vw;
+  left: 0.6vw;
+}
+
+.absorb::before {
+  bottom: -1vw;
+  left: 0.6vw;
+}
+
+.winged::before {
+  bottom: -1vw;
+  left: 0.6vw;
+}
+
 .product button {
   font-size: 4vw;
   padding: 3vw 0;
