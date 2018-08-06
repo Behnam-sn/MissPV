@@ -14,7 +14,7 @@
 
 body {
   font-family: Segoe UI;
-  font-weight: bold;
+  /* font-weight: bold; */
   direction: rtl;
   text-align: right;
   color: var(--white);
