@@ -8,13 +8,12 @@
 }
 
 @font-face {
-  font-family: Segoe UI;
-  src: url("../font/Segoe-UI.ttf");
+  font-family: B Yekan;
+  src: url("../font/Yekan.ttf");
 }
 
 body {
-  font-family: Segoe UI;
-  /* font-weight: bold; */
+  font-family: B Yekan;
   direction: rtl;
   text-align: right;
   color: var(--white);
@@ -384,6 +383,8 @@ main h1 {
 
 .price::before {
   content: url("../img/size-tag.png");
+  position: relative;
+  bottom: -0.3vw;
 }
 
 .price {

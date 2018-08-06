@@ -284,6 +284,11 @@ main h1 {
   margin-bottom: 6vw;
 }
 
+.price::before {
+  position: relative;
+  bottom: -1.2vw;
+}
+
 .price {
   font-size: 5vw;
   margin: 7vw 0;
