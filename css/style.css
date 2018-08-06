@@ -8,12 +8,12 @@
 }
 
 @font-face {
-  font-family: B Yekan;
-  src: url("../font/Yekan.ttf");
+  font-family: Yekan;
+  src: url("../font/Bold.ttf");
 }
 
 body {
-  font-family: B Yekan;
+  font-family: Yekan;
   direction: rtl;
   text-align: right;
   color: var(--white);
