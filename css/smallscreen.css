@@ -206,15 +206,24 @@ header p {
   display: none;
 }
 
-.menu-img,
-.menu-text {
-  text-align: center;
-  padding: 0;
-  margin-left: 0;
+#topic1::before {
+  display: block;
 }
 
-.menu-text {
-  margin-top: 1.5vw;
+#topic2::before {
+  display: block;
+}
+
+#topic3::before {
+  display: block;
+}
+
+#topic1::before,
+#topic2::before,
+#topic3::before {
+  position: relative;
+  bottom: 0.5vw;
+  left: 0;
 }
 
 main {
