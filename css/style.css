@@ -565,10 +565,10 @@ footer .container-fluid {
   border: none;
   outline: none;
   margin-top: 1vw;
-  transition: all 0.7s ease-in-out;
-  -moz-transition: all 0.7s ease-in-out;
-  -o-transition: all 0.7s ease-in-out;
-  -webkit-transition: all 0.7s ease-in-out;
+  transition: background-position 0.7s ease-in-out;
+  -moz-transition: background-position 0.7s ease-in-out;
+  -o-transition: background-position 0.7s ease-in-out;
+  -webkit-transition: background-position 0.7s ease-in-out;
   background-size: 300% 100%;
 }
 .product button:focus,
