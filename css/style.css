@@ -401,14 +401,23 @@ main h1 {
 
 .large::before {
   content: url("../img/increase-size-option.png");
+  position: relative;
+  bottom: -0.2vw;
+  left: 0.1vw;
 }
 
 .absorb::before {
   content: url("../img/drops-of-two-different-sizes-stroke-symbol-for-design.png");
+  position: relative;
+  bottom: -0.2vw;
+  left: 0.1vw;
 }
 
 .winged::before {
   content: url("../img/Path 261.png");
+  position: relative;
+  bottom: -0.2vw;
+  left: 0.1vw;
 }
 
 .card img {
