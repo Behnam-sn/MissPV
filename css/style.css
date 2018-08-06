@@ -343,19 +343,6 @@ main h1 {
   border-radius: 6px 0 0 6px;
   border-right: 4px var(--second) solid;
 }
-.product {
-  font-size: 0.8vw;
-}
-
-.product h4 {
-  font-size: 1.3vw;
-}
-
-.product span {
-  color: black;
-  font-size: 1.5vw;
-  font-weight: bolder;
-}
 
 .card {
   margin-top: 8vw;
@@ -373,6 +360,46 @@ main h1 {
 
 .card-body {
   padding: 1.5vw;
+}
+
+.card-title {
+  font-size: 1.3vw;
+}
+
+.card-text {
+  font-size: 0.8vw;
+}
+
+.greedy {
+  margin-bottom: 3vw;
+}
+
+.price::before {
+  content: url("../img/size-tag.png");
+}
+
+.price {
+  color: black;
+  font-size: 1.5vw;
+  font-weight: bolder;
+  margin: 2vw 0;
+}
+
+.price::after {
+  content: "تومان";
+  font-size: 0.9vw;
+}
+
+.large::before {
+  content: url("../img/increase-size-option.png");
+}
+
+.absorb::before {
+  content: url("../img/drops-of-two-different-sizes-stroke-symbol-for-design.png");
+}
+
+.winged::before {
+  content: url("../img/Path 261.png");
 }
 
 .card img {
@@ -505,7 +532,7 @@ footer .container-fluid {
 .page button {
   width: 100%;
   font-size: 1vw;
-  padding: 1vw 0;
+  padding: 1.4vw 0;
   color: white;
   background-image: linear-gradient(
     to right,
