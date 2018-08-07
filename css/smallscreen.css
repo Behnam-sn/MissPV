@@ -86,19 +86,15 @@ nav #link-ex {
 
 nav .nav-item {
   font-size: 5vw;
-  padding: 1.7vw 0;
+  padding: 1.7vw 1.5vw;
+  margin: 1vw 0;
   border-radius: 1.5vw;
 }
 
-nav .nav-item:hover {
-  color: var(--white);
-  background: transparent;
-}
-
+nav .nav-item:hover,
 .on {
   color: var(--second);
   background: #ffffff;
-  /* box-shadow: 0 0.3vw 2vw rgba(0, 0, 0, 0.175); */
 }
 
 header {
@@ -418,20 +414,20 @@ footer .container-fluid {
   margin: 3vw 0;
 }
 
-#contact button {
-  height: 12vw;
+#contact input[type="submit"] {
+  padding: 2.5vw 0;
   width: 100%;
   margin: 3vw 0 12vw 0;
 }
 
-#contact button,
+#contact input[type="submit"],
 #contact input,
 #contact textarea {
   border: 0.3vw solid transparent;
   border-radius: 1vw;
 }
 
-#contact button:focus,
+#contact input[type="submit"]:focus,
 #contact input:focus,
 #contact textarea:focus {
   box-shadow: 0 0 0 0.3vw #ff9999 !important;

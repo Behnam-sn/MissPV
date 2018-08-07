@@ -58,8 +58,6 @@ nav .nav-item {
   display: block;
   padding: 0.7vw 1.2vw;
   margin: 0 0.5vw;
-  transition-duration: 0.2s;
-  text-align: right;
   transition: 0.4s all ease;
   border-radius: 0.4vw;
 }
@@ -622,21 +620,21 @@ footer .container-fluid {
   padding: 1.2vw 2vw;
   margin: 0.7vw 0;
 }
-#contact button {
+#contact input[type="submit"] {
   color: var(--white);
   background: var(--main);
-  height: 3vw;
   width: 8vw;
+  padding: 0.6vw 0;
   margin: 0.7vw 0 3vw 0;
 }
-#contact button,
+#contact input[type="submit"],
 #contact input,
 #contact textarea {
   box-sizing: border-box;
   border: 0.1vw solid transparent;
   border-radius: 0.3vw;
 }
-#contact button:focus,
+#contact input[type="submit"]:focus,
 #contact input:focus,
 #contact textarea:focus {
   outline: 0;
