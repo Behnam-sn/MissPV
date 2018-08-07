@@ -578,3 +578,17 @@ footer .container-fluid {
   outline: 0;
   box-shadow: 0 0 0 0.2vw #ff9999;
 }
+/* about-us */
+#about-us {
+  background: linear-gradient(to right, #f3f4f8, #f7f8fc);
+  color: #000000;
+  margin: 3vw 0;
+}
+#about-us .center {
+  flex-direction: column !important;
+  align-items: baseline !important;
+}
+#about-us img {
+  width: 100%;
+  height: auto;
+}

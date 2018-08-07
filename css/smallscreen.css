@@ -380,3 +380,10 @@ footer .container-fluid {
 #search-input::-ms-input-placeholder {
   font-size: 2.5vw;
 }
+
+#about-us {
+  margin: 10vw 0;
+}
+#about-us .h1 {
+  font-size: 8vw !important;
+}
