@@ -515,6 +515,10 @@ footer .container-fluid {
   width: 100%;
 }
 
+#soical a {
+  margin: 0 2vw;
+}
+
 #ftp::placeholder,
 #search-input::placeholder {
   color: white;
@@ -586,7 +590,7 @@ footer .container-fluid {
 #about-us {
   background: linear-gradient(to right, #f3f4f8, #f7f8fc);
   color: #000000;
-  margin: 3vw 0 5vw 0;
+  margin: 3vw 0 7vw 0; /* height: 940px; */
 }
 #about-us .center {
   flex-direction: column !important;
@@ -597,6 +601,8 @@ footer .container-fluid {
   height: auto;
 }
 #rocky {
+  position: absolute;
+  bottom: -160px;
   height: 40vh;
   width: 98.9vw;
 }
