@@ -1,9 +1,10 @@
 :root {
   --main: #fd3077;
   --second: #da2b68;
-  --white: #f2f2f2;
+  --white: #ffffff;
+  /* --white: #f2f2f2; */
+  --black: #4d4d4d;
   --gray: #d9d9d9;
-  --black: #5d5d5d;
   --background: #fff6f9;
 }
 
@@ -28,6 +29,12 @@ button,
   cursor: pointer;
 }
 
+a,
+a:hover {
+  color: var(--white);
+  text-decoration: none;
+}
+
 nav {
   background-color: var(--second);
 }
@@ -48,7 +55,6 @@ nav .navbar-nav {
 
 nav .nav-item {
   font-size: 1.1vw;
-  color: var(--white);
   display: block;
   padding: 0 2vw;
   transition-duration: 0.2s;
@@ -94,9 +100,10 @@ header {
 }
 
 .buttonInside button {
+  color: var(--black);
   font-size: 0.7vw;
   background-color: var(--main);
-  color: white;
+  color: var(--white);
   position: absolute;
   left: 0.3vw;
   top: 0.3vw;
@@ -109,10 +116,10 @@ header {
   transition: 1s all ease;
 }
 
-.buttonInside button:hover {
-  /* background: rgba(253, 48, 119, 0.6); */
+/* .buttonInside button:hover {
+  background: rgba(253, 48, 119, 0.6);
   width: 98%;
-}
+} */
 
 hr {
   display: block;
@@ -178,7 +185,7 @@ header p {
 }
 
 #right {
-  color: white;
+  color: var(--white);
 }
 
 /* .prev:hover,
@@ -216,7 +223,7 @@ header p {
 
 .dot3 {
   background-color: #ff7777;
-  color: white;
+  color: var(--white);
   transition: background-color 0.6s ease;
   -webkit-transition: background-color 0.6s ease;
   width: 100%;
@@ -244,8 +251,8 @@ header p {
 }
 
 #slide {
+  background-color: #ffffff;
   color: var(--black);
-  background-color: #fff;
 }
 
 .slide-img {
@@ -269,7 +276,6 @@ header p {
 }
 
 .page h1 {
-  color: black;
   font-weight: bold;
   font-size: 2vw;
   margin-bottom: 2vw;
@@ -303,7 +309,7 @@ header p {
 }
 
 main {
-  color: black;
+  color: var(--black);
   text-align: center;
   margin-bottom: 10vw;
   margin-left: 11vw;
@@ -393,7 +399,6 @@ main h1 {
 }
 
 .price {
-  color: black;
   font-size: 1.5vw;
   font-weight: bolder;
   margin: 2vw 0;
@@ -432,16 +437,6 @@ main h1 {
 
 footer {
   background-color: var(--main);
-  color: white;
-}
-
-footer a {
-  color: white;
-}
-
-footer a:hover {
-  color: white;
-  text-decoration: none;
 }
 
 footer img {
@@ -488,7 +483,7 @@ footer .container-fluid {
 }
 
 .input input {
-  color: white;
+  color: var(--white);
   background-color: var(--main);
   height: 100%;
   width: 100%;
@@ -499,7 +494,6 @@ footer .container-fluid {
 }
 
 .button {
-  color: black;
   background-color: white;
   height: 3vw;
   width: 8vw;
@@ -508,6 +502,7 @@ footer .container-fluid {
 }
 
 .button button {
+  color: var(--black);
   background-color: #ffffff;
   border: none;
   outline: none;
@@ -521,17 +516,17 @@ footer .container-fluid {
 
 #ftp::placeholder,
 #search-input::placeholder {
-  color: white;
+  color: var(--white);
 }
 
 #ftp:-ms-input-placeholder,
 #search-input:-ms-input-placeholder {
-  color: white;
+  color: var(--white);
 }
 
 #ftp::-ms-input-placeholder,
 #search-input::-ms-input-placeholder {
-  color: white;
+  color: var(--white);
 }
 
 .center {
@@ -560,7 +555,7 @@ footer .container-fluid {
   width: 100%;
   font-size: 1vw;
   padding: 1.4vw 0;
-  color: white;
+  color: var(--white);
   background-image: linear-gradient(
     to right,
     #fd3077 0%,
@@ -591,9 +586,9 @@ footer .container-fluid {
   margin: 4vw 4vw;
 }
 #about-us {
+  color: var(--black);
   box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.175) !important;
   background: linear-gradient(to right, #f3f4f8, #f7f8fc);
-  color: #4d4d4d;
 }
 #about-us .center {
   flex-direction: column !important;
