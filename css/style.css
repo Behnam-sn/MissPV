@@ -587,19 +587,29 @@ footer .container-fluid {
   background-position: 100% 0;
 }
 /* about-us */
-#river {
+.contain {
   margin: 4vw 4vw;
 }
-#about-us {
+.us {
   color: var(--black);
   box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.175) !important;
   background: linear-gradient(to right, #f3f4f8, #f7f8fc);
 }
-#about-us .center {
+.us .center {
   flex-direction: column !important;
   align-items: baseline !important;
 }
-#about-us img {
+.us img {
   width: 100%;
   height: auto;
+}
+#contact a {
+  color: var(--black);
+}
+#contact img {
+  width: 70%;
+  height: auto;
+}
+#contact .ba {
+  margin-left: 1vw;
 }

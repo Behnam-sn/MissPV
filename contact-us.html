@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>مگو</title>
+    <link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16">
+    <!-- CDN Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <!-- CDN bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -15,9 +19,97 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <!-- Local style -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 450px)" href="css/smallscreen.css">
+    <link rel="stylesheet" media="only screen and (max-width: 600px)" href="css/smallscreen.css">
+
 </head>
+
 <body>
-    
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div id="nav-search">
+            <img src="img/Search@2x.png" alt="" onclick="search()">
+        </div>
+        <div id="hang">
+            <div class="search-line now-out" id="devo">
+                <input id="search-input" type="text" placeholder="جست و جو کنید...">
+            </div>
+        </div>
+        <a href="index.html">
+            <img src="img/icon.png" id="icon" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a href="#" class="nav-item">محصولات ما</a>
+                <a href="#" class="nav-item">آکادمی</a>
+                <a href="contact-us.html" class="nav-item on">تماس با ما</a>
+                <a href="about-us.html" class="nav-item">درباره ما</a>
+                <a href="#" class="nav-item" id="link-ex">ورود / عضویت</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="contain">
+        <div class="us text-center" id="contact">
+            <h1 class="h3">با ما در تماس باشيد</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/Group 1.png" alt="">
+                    <h1 class="h3">شبكه اجتماعي</h1>
+                    <div class="d-flex justify-content-center">
+                        <div class="ba">
+                            <a href="">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <p>misspv@</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="ba">
+                            <a href="">
+                                <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <p>misspv@</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="ba">
+                            <a href="">
+                                <i class="fab fa-facebook-f fa-2x"></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <p>misspv</p>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <img src="img/Group 2.png" alt="">
+                    <h1 class="h3">ايميل</h1>
+                    <p>misspv@yahoo.com</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/Group 3.png" alt="">
+                    <h1 class="h3">تلفن تماس</h1>
+                    <p>021-8822222</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+
 </html>
