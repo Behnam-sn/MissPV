@@ -587,10 +587,13 @@ footer .container-fluid {
   background-position: 100% 0;
 }
 /* about-us */
+#river {
+  margin: 3vw 4vw 7vw 4vw;
+}
 #about-us {
+  box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.175) !important;
   background: linear-gradient(to right, #f3f4f8, #f7f8fc);
   color: #000000;
-  margin: 3vw 0 7vw 0; /* height: 940px; */
 }
 #about-us .center {
   flex-direction: column !important;
@@ -599,10 +602,4 @@ footer .container-fluid {
 #about-us img {
   width: 100%;
   height: auto;
-}
-#rocky {
-  position: absolute;
-  bottom: -160px;
-  height: 40vh;
-  width: 98.9vw;
 }
