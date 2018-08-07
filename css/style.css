@@ -593,7 +593,7 @@ footer .container-fluid {
 #about-us {
   box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.175) !important;
   background: linear-gradient(to right, #f3f4f8, #f7f8fc);
-  color: #000000;
+  color: #4d4d4d;
 }
 #about-us .center {
   flex-direction: column !important;
