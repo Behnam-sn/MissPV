@@ -566,10 +566,10 @@ footer .container-fluid {
   border: none;
   outline: none;
   margin-top: 1vw;
-  transition: background-position 0.7s ease-in-out;
-  -moz-transition: background-position 0.7s ease-in-out;
-  -o-transition: background-position 0.7s ease-in-out;
-  -webkit-transition: background-position 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -webkit-transition: all 0.7s ease-in-out;
   background-size: 300% 100%;
 }
 .product button:focus,
@@ -578,11 +578,15 @@ footer .container-fluid {
   outline: 0;
   box-shadow: 0 0 0 0.2vw #ff9999;
 }
+.product button:hover,
+.page button:hover {
+  background-position: 100% 0;
+}
 /* about-us */
 #about-us {
   background: linear-gradient(to right, #f3f4f8, #f7f8fc);
   color: #000000;
-  margin: 3vw 0;
+  margin: 3vw 0 5vw 0;
 }
 #about-us .center {
   flex-direction: column !important;
@@ -591,4 +595,8 @@ footer .container-fluid {
 #about-us img {
   width: 100%;
   height: auto;
+}
+#rocky {
+  height: 40vh;
+  width: 98.9vw;
 }
