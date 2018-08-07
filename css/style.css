@@ -613,3 +613,30 @@ footer .container-fluid {
 #contact .ba {
   margin-left: 1vw;
 }
+#contact h1 {
+  padding: 2vw 0;
+}
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0.7vw 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0.3vw;
+}
+#contact button {
+  color: var(--white);
+  background: var(--main);
+  border-radius: 0.3vw;
+  border: none;
+  height: 3vw;
+  width: 8vw;
+  margin: 0.7vw 0 3vw 0;
+}
+#contact button:focus,
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.1vw #ff9999 !important;
+}
