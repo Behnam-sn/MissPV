@@ -87,6 +87,18 @@ nav #link-ex {
 nav .nav-item {
   font-size: 5vw;
   padding: 1.7vw 0;
+  border-radius: 1.5vw;
+}
+
+nav .nav-item:hover {
+  color: var(--white);
+  background: transparent;
+}
+
+.on {
+  color: var(--second);
+  background: #ffffff;
+  /* box-shadow: 0 0.3vw 2vw rgba(0, 0, 0, 0.175); */
 }
 
 header {
