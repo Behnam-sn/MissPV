@@ -56,14 +56,19 @@ nav .navbar-nav {
 nav .nav-item {
   font-size: 1.1vw;
   display: block;
-  padding: 0 2vw;
+  padding: 0.7vw 1.2vw;
+  margin: 0 0.5vw;
   transition-duration: 0.2s;
   text-align: right;
+  transition: 0.4s all ease;
+  border-radius: 0.4vw;
 }
 
-nav .nav-item:hover {
-  color: var(--gray);
-  text-decoration: none;
+nav .nav-item:hover,
+.on {
+  color: var(--second);
+  background: #ffffff;
+  /* box-shadow: 0 0.3vw 2vw rgba(0, 0, 0, 0.175); */
 }
 
 nav #link-ex {
