@@ -397,9 +397,42 @@ footer .container-fluid {
   font-size: 2.5vw;
 }
 
-#river {
+.contain {
   margin: 10vw 5.5vw;
 }
-#about-us .h1 {
+
+.us .h1 {
   font-size: 8vw !important;
+}
+
+#contact .ba {
+  margin-left: 3vw;
+}
+
+#contact h1 {
+  padding: 5vw 0;
+}
+#contact input,
+#contact textarea {
+  padding: 4vw 4vw;
+  margin: 3vw 0;
+}
+
+#contact button {
+  height: 12vw;
+  width: 100%;
+  margin: 3vw 0 12vw 0;
+}
+
+#contact button,
+#contact input,
+#contact textarea {
+  border: 0.3vw solid transparent;
+  border-radius: 1vw;
+}
+
+#contact button:focus,
+#contact input:focus,
+#contact textarea:focus {
+  box-shadow: 0 0 0 0.3vw #ff9999 !important;
 }
