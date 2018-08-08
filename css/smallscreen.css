@@ -431,6 +431,14 @@ footer .container-fluid {
   padding: 3vw 6vw;
 }
 
+.product-main .foff {
+  margin-bottom: 15vw;
+}
+
+.product-main .product-button {
+  width: 100%;
+}
+
 .product-detail .subject,
 .product-detail .data {
   padding: 2vw;
