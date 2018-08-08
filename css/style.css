@@ -588,32 +588,32 @@ footer .container-fluid {
   padding: 2vw 0;
 }
 
-#contact input,
-#contact textarea {
+#form input,
+#form textarea {
   width: 100%;
   padding: 1.2vw 2vw;
   margin: 0.7vw 0;
 }
 
-#contact input[type="submit"] {
+#form input[type="submit"] {
   color: var(--white);
   background: var(--main);
-  width: 8vw;
+  width: 8vw !important;
   padding: 0.6vw 0;
   margin: 0.7vw 0 3vw 0;
 }
 
-#contact input[type="submit"],
-#contact input,
-#contact textarea {
+#form input[type="submit"],
+#form input,
+#form textarea {
   box-sizing: border-box;
   border: 0.1vw solid transparent;
   border-radius: 0.3vw;
 }
 
-#contact input[type="submit"]:focus,
-#contact input:focus,
-#contact textarea:focus {
+#form input[type="submit"]:focus,
+#form input:focus,
+#form textarea:focus {
   outline: 0;
   border: 0.1vw solid #ff9999;
 }
@@ -649,6 +649,14 @@ footer .container-fluid {
 .product-detail h1,
 .product-main h1 {
   margin: 0 !important;
+}
+
+.product-comment #form {
+  width: 60%;
+}
+
+.product-comment #form input {
+  width: 50%;
 }
 
 .product-button {

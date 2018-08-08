@@ -402,28 +402,28 @@ footer .container-fluid {
 #contact h1 {
   padding: 5vw 0;
 }
-#contact input,
-#contact textarea {
+#form input,
+#form textarea {
   padding: 4vw 4vw;
   margin: 3vw 0;
 }
 
-#contact input[type="submit"] {
+#form input[type="submit"] {
   padding: 2.5vw 0;
-  width: 100%;
+  width: 100% !important;
   margin: 3vw 0 12vw 0;
 }
 
-#contact input[type="submit"],
-#contact input,
-#contact textarea {
+#form input[type="submit"],
+#form input,
+#form textarea {
   border: 0.3vw solid transparent;
   border-radius: 1vw;
 }
 
-#contact input[type="submit"]:focus,
-#contact input:focus,
-#contact textarea:focus {
+#form input[type="submit"]:focus,
+#form input:focus,
+#form textarea:focus {
   box-shadow: 0 0 0 0.3vw #ff9999 !important;
 }
 
@@ -452,4 +452,12 @@ footer .container-fluid {
 
 .product-detail .row {
   margin: 6vw 0;
+}
+
+.product-comment #form {
+  width: 100%;
+}
+
+.product-comment #form input {
+  width: 100%;
 }
