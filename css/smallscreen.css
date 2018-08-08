@@ -199,12 +199,6 @@ header p {
   font-size: 6vw !important;
 }
 
-.page button {
-  font-size: 4vw;
-  padding: 3vw 0;
-  margin-bottom: 3vw;
-}
-
 #slideshow-2-dots1 {
   display: block;
 }
@@ -320,7 +314,7 @@ main h1 {
   left: 0.6vw;
 }
 
-.product button {
+.product-button {
   font-size: 4vw;
   padding: 3vw 0;
   margin-bottom: 3vw;
@@ -431,4 +425,23 @@ footer .container-fluid {
 #contact input:focus,
 #contact textarea:focus {
   box-shadow: 0 0 0 0.3vw #ff9999 !important;
+}
+
+.headline {
+  padding: 3vw 6vw;
+}
+
+.product-detail .subject,
+.product-detail .data {
+  padding: 2vw;
+  margin: 3vw 0;
+  border-radius: 1vw;
+}
+
+.product-detail .data {
+  font-size: 3.3vw;
+}
+
+.product-detail .row {
+  margin: 6vw 0;
 }
