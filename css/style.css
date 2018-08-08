@@ -553,8 +553,78 @@ footer .container-fluid {
   font-weight: normal;
 }
 
-.product button,
-.page button {
+/* about-us */
+.contain {
+  margin: 4vw 4vw;
+  color: var(--black);
+  box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.175) !important;
+  background: linear-gradient(to right, #f3f4f8, #f7f8fc);
+}
+
+.contain .center {
+  flex-direction: column !important;
+  align-items: baseline !important;
+}
+
+.contain img {
+  width: 100%;
+  height: auto;
+}
+
+#contact a {
+  color: var(--black);
+}
+
+#contact img {
+  width: 70%;
+  height: auto;
+}
+
+#contact .ba {
+  margin-left: 1vw;
+}
+
+#contact h1 {
+  padding: 2vw 0;
+}
+
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 1.2vw 2vw;
+  margin: 0.7vw 0;
+}
+
+#contact input[type="submit"] {
+  color: var(--white);
+  background: var(--main);
+  width: 8vw;
+  padding: 0.6vw 0;
+  margin: 0.7vw 0 3vw 0;
+}
+
+#contact input[type="submit"],
+#contact input,
+#contact textarea {
+  box-sizing: border-box;
+  border: 0.1vw solid transparent;
+  border-radius: 0.3vw;
+}
+
+#contact input[type="submit"]:focus,
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 0.1vw solid #ff9999;
+}
+
+.headline {
+  background: var(--main);
+  color: var(--white);
+  padding: 1vw 2vw;
+}
+
+.product-button {
   width: 100%;
   font-size: 1vw;
   padding: 1.4vw 0;
@@ -574,69 +644,11 @@ footer .container-fluid {
   -webkit-transition: all 0.7s ease-in-out;
   background-size: 300% 100%;
 }
-.product button:focus,
-.page button:focus {
+.product-button:focus {
   background-position: 100% 0;
   outline: 0;
   box-shadow: 0 0 0 0.2vw #ff9999;
 }
-.product button:hover,
-.page button:hover {
+.product-button:hover {
   background-position: 100% 0;
-}
-/* about-us */
-.contain {
-  margin: 4vw 4vw;
-}
-.us {
-  color: var(--black);
-  box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.175) !important;
-  background: linear-gradient(to right, #f3f4f8, #f7f8fc);
-}
-.us .center {
-  flex-direction: column !important;
-  align-items: baseline !important;
-}
-.us img {
-  width: 100%;
-  height: auto;
-}
-#contact a {
-  color: var(--black);
-}
-#contact img {
-  width: 70%;
-  height: auto;
-}
-#contact .ba {
-  margin-left: 1vw;
-}
-#contact h1 {
-  padding: 2vw 0;
-}
-#contact input,
-#contact textarea {
-  width: 100%;
-  padding: 1.2vw 2vw;
-  margin: 0.7vw 0;
-}
-#contact input[type="submit"] {
-  color: var(--white);
-  background: var(--main);
-  width: 8vw;
-  padding: 0.6vw 0;
-  margin: 0.7vw 0 3vw 0;
-}
-#contact input[type="submit"],
-#contact input,
-#contact textarea {
-  box-sizing: border-box;
-  border: 0.1vw solid transparent;
-  border-radius: 0.3vw;
-}
-#contact input[type="submit"]:focus,
-#contact input:focus,
-#contact textarea:focus {
-  outline: 0;
-  border: 0.1vw solid #ff9999;
 }
