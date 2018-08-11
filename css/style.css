@@ -581,19 +581,6 @@ footer .container-fluid {
   color: var(--black);
 }
 
-#contact img {
-  width: 70%;
-  height: auto;
-}
-
-#contact .ba {
-  margin-left: 1vw;
-}
-
-#contact h1 {
-  padding: 2vw 0;
-}
-
 #form input,
 #form textarea {
   width: 100%;
