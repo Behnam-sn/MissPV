@@ -397,6 +397,7 @@ footer .container-fluid {
 
 #contact {
   margin: 5vw 6vw;
+  /* text-align: center; */
 }
 
 #contact .d-flex {
@@ -405,6 +406,11 @@ footer .container-fluid {
 
 #contact p {
   margin: 0 !important;
+}
+
+#contact .col-md-4,
+#contact .col-md-5 {
+  margin: 1vw 0;
 }
 
 .half {
@@ -417,7 +423,7 @@ footer .container-fluid {
 #email::after,
 #tel::before {
   font-size: 5vw;
-  bottom: -0.6vw;
+  bottom: -0.5vw;
 }
 
 #form input,
