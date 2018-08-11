@@ -397,7 +397,7 @@ footer .container-fluid {
 
 #contact {
   margin: 5vw 6vw;
-  /* text-align: center; */
+  border-radius: 1vw;
 }
 
 #contact .d-flex {
@@ -415,6 +415,11 @@ footer .container-fluid {
 
 .half {
   width: 100%;
+}
+
+#map {
+  height: 100vw;
+  border-radius: 1vw 0 0 1vw;
 }
 
 #instagram::after,
@@ -441,7 +446,7 @@ footer .container-fluid {
 #form input[type="submit"],
 #form input,
 #form textarea {
-  border: 0.3vw solid transparent;
+  border: 0.3vw solid var(--black);
   border-radius: 1vw;
 }
 
