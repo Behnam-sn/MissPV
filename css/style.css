@@ -618,19 +618,41 @@ footer .container-fluid {
   border: 0.1vw solid #ff9999;
 }
 
+/* product */
 .headline {
   background: var(--main);
   color: var(--white);
   padding: 1vw 2vw;
 }
 
-.product-main .foff {
-  text-align: center;
-  margin-bottom: 5vw;
+.product-main .fo {
+  margin: auto 0;
 }
 
-.product-main .product-button {
-  width: 50%;
+.product-main .foff {
+  text-align: center;
+  margin-top: 2vw;
+}
+
+.product-main .foff p {
+  font-size: 1.2vw;
+}
+
+.line {
+  position: relative;
+  box-sizing: border-box;
+  padding-bottom: 2.5vw;
+}
+
+.line::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 0.5vw;
+  background-color: #cc33ff;
 }
 
 .product-detail .subject,
