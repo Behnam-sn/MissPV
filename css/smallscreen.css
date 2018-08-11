@@ -432,7 +432,7 @@ footer .container-fluid {
 }
 
 .product-main .fo {
-  margin: 0;
+  margin: 0 0 8vw 0;
 }
 
 .product-main .foff {
@@ -449,21 +449,6 @@ footer .container-fluid {
 
 .line::after {
   height: 1vw;
-}
-
-.product-detail .subject,
-.product-detail .data {
-  padding: 2vw;
-  margin: 3vw 0;
-  border-radius: 1vw;
-}
-
-.product-detail .data {
-  font-size: 3.3vw;
-}
-
-.product-detail .row {
-  margin: 6vw 0;
 }
 
 .product-comment #form {
