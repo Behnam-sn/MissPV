@@ -395,13 +395,27 @@ footer .container-fluid {
   font-size: 8vw !important;
 }
 
-#contact .ba {
-  margin-left: 3vw;
+#contact {
+  margin: 5vw 6vw;
 }
 
-#contact h1 {
-  padding: 5vw 0;
+#contact .d-flex {
+  flex-direction: column !important;
 }
+
+.half {
+  width: 100%;
+}
+
+#instagram::after,
+#twitter::after,
+#facebook::after,
+#email::after,
+#tel::before {
+  font-size: 5vw;
+  bottom: -0.6vw;
+}
+
 #form input,
 #form textarea {
   padding: 4vw 4vw;
