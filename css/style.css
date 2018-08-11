@@ -655,6 +655,10 @@ footer .container-fluid {
   background-color: #cc33ff;
 }
 
+.product-main .img {
+  max-height: 100vh;
+}
+
 .product-comment #form {
   width: 60%;
 }
