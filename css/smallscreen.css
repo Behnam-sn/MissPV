@@ -425,8 +425,8 @@ footer .container-fluid {
 #instagram::after,
 #twitter::after,
 #facebook::after,
-#email::after,
-#tel::before {
+#email::before,
+#tel::after {
   font-size: 5vw;
   bottom: -0.5vw;
 }
@@ -435,7 +435,7 @@ footer .container-fluid {
 #form textarea {
   padding: 4vw 4vw;
   margin: 3vw 0;
-  border: 0.3vw solid var(--black);
+  border-width: 0.3vw;
 }
 
 #form input[type="submit"] {
@@ -453,7 +453,7 @@ footer .container-fluid {
 #form input[type="submit"]:focus,
 #form input:focus,
 #form textarea:focus {
-  border: 0.3vw solid #ff9999;
+  border-color: var(--main);
 }
 
 .headline {

@@ -583,7 +583,8 @@ footer .container-fluid {
 }
 
 #contact .h4 {
-  margin-top: 0.7vw;
+  margin: 0.7vw 0;
+  color: #ff7777;
 }
 
 #form input,
@@ -614,7 +615,7 @@ footer .container-fluid {
 #form input:focus,
 #form textarea:focus {
   outline: 0;
-  border: 0.1vw solid var(--main);
+  border-color: var(--main);
 }
 
 #map {
@@ -630,8 +631,8 @@ footer .container-fluid {
 #instagram::after,
 #twitter::after,
 #facebook::after,
-#email::after,
-#tel::before {
+#email::before,
+#tel::after {
   font-weight: 900;
   font-size: 1.7vw;
   position: relative;
@@ -645,8 +646,8 @@ footer .container-fluid {
   font-family: "Font Awesome 5 brands";
 }
 
-#email::after,
-#tel::before {
+#email::before,
+#tel::after {
   font-family: "Font Awesome 5 Free";
 }
 
@@ -662,11 +663,11 @@ footer .container-fluid {
   content: "\f39e";
 }
 
-#email::after {
+#email::before {
   content: "\f0e0";
 }
 
-#tel::before {
+#tel::after {
   content: "\f095";
 }
 
