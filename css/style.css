@@ -670,6 +670,11 @@ footer .container-fluid {
   -webkit-font-smoothing: antialiased;
 }
 
+#contact .col-md-4,
+#contact .col-md-5 {
+  margin: 0.5vw 0;
+}
+
 /* product */
 .headline {
   background: var(--main);

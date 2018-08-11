@@ -403,6 +403,10 @@ footer .container-fluid {
   flex-direction: column !important;
 }
 
+#contact p {
+  margin: 0 !important;
+}
+
 .half {
   width: 100%;
 }
