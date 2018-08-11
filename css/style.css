@@ -595,7 +595,6 @@ footer .container-fluid {
 
 #form input[type="submit"] {
   color: var(--white);
-  background: var(--black);
   width: 8vw !important;
   padding: 0.6vw 0;
   margin: 0vw 0 0.7vw 0;
@@ -605,7 +604,7 @@ footer .container-fluid {
 #form input,
 #form textarea {
   box-sizing: border-box;
-  border: 0.1vw solid var(--black);
+  border: 0.1vw solid transparent;
   border-radius: 0.3vw;
 }
 
@@ -613,7 +612,6 @@ footer .container-fluid {
 #form input:focus,
 #form textarea:focus {
   outline: 0;
-  border: 0.1vw solid #ff9999;
 }
 
 #map {
@@ -635,6 +633,7 @@ footer .container-fluid {
   font-size: 1.7vw;
   position: relative;
   bottom: -0.3vw;
+  color: var(--main);
 }
 
 #instagram::after,
@@ -661,7 +660,7 @@ footer .container-fluid {
 }
 
 #email::after {
-  content: "\f1fa";
+  content: "\f0e0";
 }
 
 #tel::before {
@@ -755,6 +754,20 @@ footer .container-fluid {
   outline: 0;
   box-shadow: 0 0 0 0.2vw #ff9999;
 }
-.product-button:hover {
+.product-button:hover,
+#form input[type="submit"]:hover {
   background-position: 100% 0;
+}
+#form input[type="submit"] {
+  background-image: linear-gradient(
+    to right,
+    #ff7777 0%,
+    #fd3077 40%,
+    #ff7777 100%
+  );
+  background-size: 300% 100%;
+  transition: all 0.7s ease-in-out;
+  -moz-transition: all 0.7s ease-in-out;
+  -o-transition: all 0.7s ease-in-out;
+  -webkit-transition: all 0.7s ease-in-out;
 }
