@@ -571,6 +571,12 @@ footer .container-fluid {
   height: auto;
 }
 
+#contact {
+  color: var(--black);
+  background-color: var(--white);
+  margin: 5vw 15vw;
+}
+
 #contact a {
   color: var(--black);
 }
@@ -619,8 +625,62 @@ footer .container-fluid {
 }
 
 #map {
-  width: 100%;
+  /* width: 100%; */
   height: 500px;
+}
+
+.half {
+  width: 50%;
+}
+
+#instagram::after,
+#twitter::after,
+#facebook::after,
+#email::after,
+#tel::before {
+  font-weight: 900;
+  font-size: 1.7vw;
+  position: relative;
+  bottom: -0.3vw;
+}
+
+#instagram::after,
+#twitter::after,
+#facebook::after {
+  font-family: "Font Awesome 5 brands";
+}
+
+#email::after,
+#tel::before {
+  font-family: "Font Awesome 5 Free";
+}
+
+#instagram::after {
+  content: "\f16d";
+}
+
+#twitter::after {
+  content: "\f099";
+}
+
+#facebook::after {
+  content: "\f39e";
+}
+
+#email::after {
+  content: "\f1fa";
+}
+
+#tel::before {
+  content: "\f095";
+}
+
+#tel p {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* product */
