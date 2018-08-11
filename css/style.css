@@ -618,6 +618,11 @@ footer .container-fluid {
   border: 0.1vw solid #ff9999;
 }
 
+#map {
+  width: 100%;
+  height: 500px;
+}
+
 /* product */
 .headline {
   background: var(--main);
