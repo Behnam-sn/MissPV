@@ -655,6 +655,13 @@ footer .container-fluid {
 }
 
 /* product */
+.product-contain {
+  margin: 4vw 6vw;
+  color: var(--black);
+  box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.175) !important;
+  background-color: var(--white);
+}
+
 .headline {
   background: var(--main);
   color: var(--white);
