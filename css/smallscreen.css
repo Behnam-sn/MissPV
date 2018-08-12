@@ -390,6 +390,7 @@ footer .container-fluid {
 /* about */
 .contain {
   margin: 10vw 5.5vw;
+  box-shadow: 0 3vw 6vw rgba(0, 0, 0, 0.175) !important;
 }
 
 .contain .h1 {
@@ -439,12 +440,12 @@ footer .container-fluid {
   border-radius: 1vw;
 }
 
-#form input:focus,
-#form textarea:focus {
-  border-color: var(--main);
+/* product */
+.product-contain {
+  margin: 10vw 5.5vw;
+  box-shadow: 0 3vw 6vw rgba(0, 0, 0, 0.175) !important;
 }
 
-/* product */
 .headline {
   padding: 3vw 6vw;
 }
@@ -467,4 +468,22 @@ footer .container-fluid {
 
 .line::after {
   height: 1vw;
+}
+
+.product-form {
+  margin: 5vw 0 0 0;
+}
+
+.product-form input[type="submit"] {
+  padding: 2.5vw 0;
+  width: 100% !important;
+  margin: 3vw 0 12vw 0;
+}
+
+.product-form input,
+.product-form textarea {
+  padding: 4vw 4vw;
+  margin: 3vw 0;
+  border-width: 0.3vw;
+  border-radius: 1vw;
 }
