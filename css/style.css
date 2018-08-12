@@ -558,7 +558,6 @@ footer .container-fluid {
   margin: 4vw 4vw;
   color: var(--black);
   box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.175) !important;
-  background: linear-gradient(to right, #f3f4f8, #f7f8fc);
 }
 
 .contain .center {
