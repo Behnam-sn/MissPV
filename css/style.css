@@ -553,7 +553,7 @@ footer .container-fluid {
   font-weight: normal;
 }
 
-/* about-us */
+/* about */
 .contain {
   margin: 4vw 4vw;
   color: var(--black);
@@ -571,7 +571,7 @@ footer .container-fluid {
   height: auto;
 }
 
-/* Contact */
+/* contact */
 #contact {
   color: var(--black);
   background-color: var(--white);
@@ -600,6 +600,7 @@ footer .container-fluid {
 
 #email::before,
 #tel::after {
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   font-size: 1.7vw;
   position: relative;
@@ -609,12 +610,10 @@ footer .container-fluid {
 }
 
 #email::before {
-  font-family: "Font Awesome 5 Free";
   content: "\f0e0";
 }
 
 #tel::after {
-  font-family: "Font Awesome 5 Free";
   content: "\f095";
 }
 
@@ -641,16 +640,15 @@ footer .container-fluid {
   padding: 0.7vw 1vw;
   margin: 0.7vw 0;
   border: 0.1vw solid #ff7777;
-}
-
-#form input[type="submit"],
-#form input,
-#form textarea {
   box-sizing: border-box;
   border-radius: 0.3vw;
 }
 
-#form input[type="submit"]:focus,
+#form input::placeholder,
+#form textarea::placeholder {
+  color: #999999;
+}
+
 #form input:focus,
 #form textarea:focus {
   outline: 0;

@@ -387,6 +387,7 @@ footer .container-fluid {
   font-size: 2.5vw;
 }
 
+/* about */
 .contain {
   margin: 10vw 5.5vw;
 }
@@ -395,9 +396,10 @@ footer .container-fluid {
   font-size: 8vw !important;
 }
 
+/* contact */
 #contact {
   margin: 5vw 6vw;
-  border-radius: 1vw;
+  border-radius: 2vw;
 }
 
 #contact .d-flex {
@@ -408,18 +410,13 @@ footer .container-fluid {
   margin: 0 !important;
 }
 
-#contact .col-md-4,
-#contact .col-md-5 {
-  margin: 1vw 0;
-}
-
 .half {
   width: 100%;
 }
 
 #map {
   height: 100vw;
-  border-radius: 1vw 0 0 1vw;
+  border-radius: 0 0 2vw 2vw;
 }
 
 #email::before,
@@ -428,31 +425,26 @@ footer .container-fluid {
   bottom: -0.5vw;
 }
 
-#form input,
-#form textarea {
-  padding: 4vw 4vw;
-  margin: 3vw 0;
-  border-width: 0.3vw;
-}
-
 #form input[type="submit"] {
   padding: 2.5vw 0;
   width: 100% !important;
   margin: 3vw 0 12vw 0;
 }
 
-#form input[type="submit"],
 #form input,
 #form textarea {
+  padding: 4vw 4vw;
+  margin: 3vw 0;
+  border-width: 0.3vw;
   border-radius: 1vw;
 }
 
-#form input[type="submit"]:focus,
 #form input:focus,
 #form textarea:focus {
   border-color: var(--main);
 }
 
+/* product */
 .headline {
   padding: 3vw 6vw;
 }
