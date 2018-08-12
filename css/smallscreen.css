@@ -422,9 +422,6 @@ footer .container-fluid {
   border-radius: 1vw 0 0 1vw;
 }
 
-#instagram::after,
-#twitter::after,
-#facebook::after,
 #email::before,
 #tel::after {
   font-size: 5vw;

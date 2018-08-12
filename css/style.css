@@ -571,6 +571,7 @@ footer .container-fluid {
   height: auto;
 }
 
+/* Contact */
 #contact {
   color: var(--black);
   background-color: var(--white);
@@ -582,9 +583,55 @@ footer .container-fluid {
   color: var(--black);
 }
 
+.half {
+  width: 50%;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.3vw 0 0 0.3vw;
+}
+
 #contact .h4 {
-  margin: 1.5vw 0 1.5vw 0;
   color: #ff7777;
+  margin: 3vw 0 1.5vw 0;
+}
+
+#email::before,
+#tel::after {
+  font-weight: 900;
+  font-size: 1.7vw;
+  position: relative;
+  bottom: -0.3vw;
+  color: #ff7777;
+}
+
+#email::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0e0";
+}
+
+#tel::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f095";
+}
+
+#tel p {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+#form input[type="submit"] {
+  color: var(--white);
+  width: 8vw !important;
+  background-color: var(--main);
+  padding: 0.6vw 0;
+  border: 0.1vw solid transparent;
+  margin: 0 0 3vw 0;
 }
 
 #form input,
@@ -593,15 +640,6 @@ footer .container-fluid {
   padding: 0.7vw 1vw;
   margin: 0.7vw 0;
   border: 0.1vw solid #ff7777;
-}
-
-#form input[type="submit"] {
-  color: var(--white);
-  width: 8vw !important;
-  background-color: var(--main);
-  padding: 0.6vw 0;
-  margin: 0 0 1.5vw 0;
-  border: 0.1vw solid transparent;
 }
 
 #form input[type="submit"],
@@ -616,72 +654,6 @@ footer .container-fluid {
 #form textarea:focus {
   outline: 0;
   border-color: var(--main);
-}
-
-#map {
-  width: 100%;
-  height: 100%;
-  border-radius: 0.3vw 0 0 0.3vw;
-}
-
-.half {
-  width: 50%;
-}
-
-#instagram::after,
-#twitter::after,
-#facebook::after,
-#email::before,
-#tel::after {
-  font-weight: 900;
-  font-size: 1.7vw;
-  position: relative;
-  bottom: -0.3vw;
-  color: #ff7777;
-}
-
-#instagram::after,
-#twitter::after,
-#facebook::after {
-  font-family: "Font Awesome 5 brands";
-}
-
-#email::before,
-#tel::after {
-  font-family: "Font Awesome 5 Free";
-}
-
-#instagram::after {
-  content: "\f16d";
-}
-
-#twitter::after {
-  content: "\f099";
-}
-
-#facebook::after {
-  content: "\f39e";
-}
-
-#email::before {
-  content: "\f0e0";
-}
-
-#tel::after {
-  content: "\f095";
-}
-
-#tel p {
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
-#contact .col-md-4,
-#contact .col-md-5 {
-  margin: 0.5vw 0;
 }
 
 /* product */
