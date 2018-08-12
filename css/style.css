@@ -659,6 +659,8 @@ footer .container-fluid {
   background: var(--main);
   color: var(--white);
   padding: 1vw 2vw;
+  margin: 0 6vw;
+  background-image: linear-gradient(to right, #ff7777, #fd3077);
 }
 
 .product-main .fo {
@@ -666,7 +668,6 @@ footer .container-fluid {
 }
 
 .product-main .foff {
-  text-align: center;
   margin-top: 2vw;
 }
 
@@ -692,17 +693,54 @@ footer .container-fluid {
 }
 
 .product-main .img {
-  max-height: 100vh;
+  max-height: 100vh !important;
 }
 
-.product-comment #form {
-  width: 60%;
+fieldset,
+label {
+  margin: 0.7vw 0;
 }
 
-.product-comment #form input {
-  width: 50%;
+.rating {
+  border: none;
 }
 
+.rating > input {
+  display: none;
+}
+.rating > label:before {
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  content: "\f005";
+  font-weight: 900;
+}
+
+.rating > .half:before {
+  content: "\f089";
+  position: absolute;
+  font-weight: 900;
+}
+
+.rating > label {
+  color: #ddd;
+}
+
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #ffd700;
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label {
+  color: #ffed85;
+}
+
+/* freaky button */
 .product-button {
   width: 100%;
   font-size: 1vw;

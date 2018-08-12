@@ -468,11 +468,3 @@ footer .container-fluid {
 .line::after {
   height: 1vw;
 }
-
-.product-comment #form {
-  width: 100%;
-}
-
-.product-comment #form input {
-  width: 100%;
-}
