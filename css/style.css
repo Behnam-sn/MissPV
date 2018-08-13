@@ -672,7 +672,7 @@ footer .container-fluid {
 .headline {
   background: var(--main);
   color: var(--white);
-  padding: 0.8vw 0;
+  padding: 0.6vw 0;
   margin: 0 6vw;
   background-image: linear-gradient(to right, #ff7777, #fd3077);
 }
@@ -716,7 +716,7 @@ footer .container-fluid {
 }
 
 .product-form {
-  margin: 5vw 0vw 0 35vw;
+  margin: 5vw 7vw;
 }
 
 .product-form input[type="submit"] {
