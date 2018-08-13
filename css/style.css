@@ -565,6 +565,10 @@ footer .container-fluid {
   align-items: baseline !important;
 }
 
+.contain p {
+  white-space: pre-line;
+}
+
 .contain img {
   width: 100%;
   height: auto;
