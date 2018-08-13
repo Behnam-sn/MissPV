@@ -794,6 +794,39 @@ label {
   color: #ffed85;
 }
 
+/* academy */
+#academy {
+  margin: 3vw 0;
+}
+
+.content {
+  color: var(--black);
+  background-color: var(--white);
+  border-radius: 0.8vw;
+}
+
+.content img {
+  height: 14vw;
+  width: 100%;
+  border-radius: 0.8vw 0.8vw 0 0;
+}
+
+.content .image {
+}
+
+.summary {
+}
+
+.summary h1 {
+}
+
+.summary p {
+}
+
+.summary a {
+  color: var(--black);
+}
+
 /* freaky button */
 .product-button {
   width: 100%;
