@@ -77,6 +77,8 @@
 
 nav #icon {
   width: 32vw;
+  margin-right: 0;
+  margin-left: 6vw;
 }
 
 nav .navbar-nav,

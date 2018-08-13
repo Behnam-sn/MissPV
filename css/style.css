@@ -46,6 +46,7 @@ nav {
 
 nav #icon {
   width: 8vw;
+  margin-right: 0.5vw;
 }
 
 nav .navbar-nav {
