@@ -795,25 +795,65 @@ label {
 }
 
 /* academy */
+#headbar {
+  background-color: #ff7777;
+  padding: 0.8vw 0;
+  position: relative;
+}
+
+#headbar h1 {
+  margin: 0 !important;
+}
+
+#headbar::after {
+  content: "";
+  display: block;
+  border-width: 1.3vw 1.3vw 0;
+  border-style: solid;
+  border-color: #ff7777 transparent transparent;
+  margin-left: -10px;
+  position: absolute;
+  bottom: -20px;
+  left: 49.45%;
+}
+
 #academy {
   margin: 3vw 0;
+  padding: 0 5vw;
 }
 
 .content {
   color: var(--black);
   background-color: var(--white);
-  border-radius: 0.8vw;
+  border-radius: 0.7vw;
   margin-bottom: 2vw;
 }
 
 .content img {
   height: 14vw;
   width: 100%;
-  border-radius: 0.8vw 0.8vw 0 0;
+  border-radius: 0.7vw 0.7vw 0 0;
 }
 
 .summary {
   padding: 2vw;
+}
+
+.summary h1 {
+  position: relative;
+  box-sizing: border-box;
+  padding-bottom: 1.15vw;
+}
+
+.summary h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 0.15vw;
+  background-color: #bfbfbf;
 }
 
 .summary .link {
@@ -823,7 +863,7 @@ label {
 .summary .link a {
   padding: 0.6vw 2.7vw;
   background-color: var(--main);
-  border-radius: 0.8vw;
+  border-radius: 0.4vw;
 }
 
 /* freaky button */
