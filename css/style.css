@@ -672,7 +672,7 @@ footer .container-fluid {
 .headline {
   background: var(--main);
   color: var(--white);
-  padding: 0.6vw 0;
+  padding: 0.4vw 0;
   margin: 0 6vw;
   background-image: linear-gradient(to right, #ff7777, #fd3077);
 }
