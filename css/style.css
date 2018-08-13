@@ -574,7 +574,7 @@ footer .container-fluid {
 #contact {
   color: var(--black);
   background-color: var(--white);
-  margin: 7vw 10vw;
+  margin: 3vw 6vw 10vw;
   border-radius: 0.5vw;
 }
 
