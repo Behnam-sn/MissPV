@@ -399,6 +399,9 @@ footer .container-fluid {
   font-size: 8vw !important;
 }
 
+.contain img {
+  margin-top: 0;
+}
 /* contact */
 #contact {
   margin: 4vw 6vw;

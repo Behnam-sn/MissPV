@@ -564,6 +564,7 @@ footer .container-fluid {
 .contain .center {
   flex-direction: column !important;
   align-items: baseline !important;
+  padding: 5vw 0;
 }
 
 .contain p {
@@ -573,6 +574,7 @@ footer .container-fluid {
 .contain img {
   width: 100%;
   height: auto;
+  margin-top: 5vw;
 }
 
 /* contact */
