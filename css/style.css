@@ -803,6 +803,7 @@ label {
   color: var(--black);
   background-color: var(--white);
   border-radius: 0.8vw;
+  margin-bottom: 2vw;
 }
 
 .content img {
@@ -815,6 +816,7 @@ label {
 }
 
 .summary {
+  padding: 2vw;
 }
 
 .summary h1 {
@@ -823,8 +825,14 @@ label {
 .summary p {
 }
 
-.summary a {
-  color: var(--black);
+.summary .link {
+  margin-top: 2vw;
+}
+
+.summary .link a {
+  padding: 0.6vw 2.7vw;
+  background-color: var(--main);
+  border-radius: 0.8vw;
 }
 
 /* freaky button */
