@@ -13,6 +13,16 @@
   src: url("../font/Bold.ttf");
 }
 
+::-webkit-scrollbar {
+  width: 1vw;
+}
+
+::-webkit-scrollbar-thumb {
+  /* background-color: #ff7777; */
+  /* background-color: var(--main); */
+  background-image: linear-gradient(#fd3077, #ff7777);
+}
+
 body {
   font-family: Yekan;
   direction: rtl;
