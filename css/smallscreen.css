@@ -492,3 +492,66 @@ footer .container-fluid {
   border-width: 0.3vw;
   border-radius: 1vw;
 }
+
+/* academy */
+#headbar {
+  padding: 3vw 0;
+}
+
+#headbar h1 {
+  font-size: 4vw;
+}
+
+#headbar::after {
+  border-width: 4vw 4vw 0;
+  margin-left: -2.6vw;
+  bottom: -4vw;
+}
+
+#academy {
+  margin: 9vw 0;
+  padding: 0 9vw;
+}
+
+#academy .col-md-3 {
+  padding: 0;
+}
+
+.content {
+  border-radius: 2.5vw;
+  margin-bottom: 8vw;
+}
+
+.content img {
+  height: 50vw;
+  border-radius: 2.5vw 2.5vw 0 0;
+}
+
+.content h1 {
+  font-size: 7vw;
+}
+
+.content {
+  font-size: 4vw;
+}
+
+.summary {
+  padding: 6vw;
+}
+
+.summary h1 {
+  padding-bottom: 3.6vw;
+}
+
+.summary h1::after {
+  height: 0.6vw;
+}
+
+.summary .link {
+  margin-top: 6vw;
+}
+
+.summary .link a {
+  padding: 2.1vw 7vw;
+  border-radius: 2.5vw;
+}
