@@ -796,7 +796,8 @@ label {
 
 /* academy */
 #headbar {
-  background-color: #ff7777;
+  /* background-color: #ff7777; */
+  background-image: linear-gradient(to right, #ff7777, #fd3077);
   padding: 0.8vw 0;
   position: relative;
 }
@@ -811,7 +812,7 @@ label {
   display: block;
   border-width: 1.3vw 1.3vw 0;
   border-style: solid;
-  border-color: #ff7777 transparent transparent;
+  border-color: #fe5477 transparent transparent;
   margin-left: -0.8vw;
   position: absolute;
   bottom: -1.3vw;
