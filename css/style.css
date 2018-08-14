@@ -796,7 +796,6 @@ label {
 
 /* academy */
 #headbar {
-  /* background-color: #ff7777; */
   background-image: linear-gradient(to right, #ff7777, #fd3077);
   padding: 0.8vw 0;
   position: relative;
@@ -876,7 +875,8 @@ label {
 
 .summary .link a {
   padding: 0.6vw 2.7vw;
-  background-color: var(--main);
+  /* background-color: var(--main); */
+  background-image: linear-gradient(to right, #fd3077, #ff7777);
   border-radius: 0.4vw;
 }
 
