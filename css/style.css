@@ -803,6 +803,7 @@ label {
 
 #headbar h1 {
   margin: 0 !important;
+  font-size: 1.3vw;
 }
 
 #headbar::after {
@@ -811,15 +812,19 @@ label {
   border-width: 1.3vw 1.3vw 0;
   border-style: solid;
   border-color: #ff7777 transparent transparent;
-  margin-left: -10px;
+  margin-left: -0.8vw;
   position: absolute;
-  bottom: -20px;
+  bottom: -1.3vw;
   left: 49.45%;
 }
 
 #academy {
   margin: 3vw 0;
-  padding: 0 5vw;
+  padding: 0 3vw;
+}
+
+#academy .col-md-3 {
+  padding: 0 1vw;
 }
 
 .content {
@@ -833,6 +838,14 @@ label {
   height: 14vw;
   width: 100%;
   border-radius: 0.7vw 0.7vw 0 0;
+}
+
+.content h1 {
+  font-size: 1.8vw;
+}
+
+.content {
+  font-size: 1vw;
 }
 
 .summary {
