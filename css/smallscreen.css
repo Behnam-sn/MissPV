@@ -555,3 +555,52 @@ footer .container-fluid {
   padding: 2.1vw 9vw;
   border-radius: 2.5vw;
 }
+
+/* login */
+#tabs {
+  margin: 10vw 0 18vw 0;
+  font-size: 4vw;
+}
+
+#incard {
+  width: 80vw;
+  border-radius: 2.5vw;
+}
+
+#log {
+  border-top-right-radius: 2.5vw;
+}
+
+#sign {
+  border-top-left-radius: 2.5vw;
+}
+
+#tabs .flex-fill {
+  padding: 4vw 0;
+}
+
+#login,
+#login form,
+#login .d-flex,
+#signup,
+#signup form,
+#signup .d-flex {
+  border-bottom-left-radius: 2.5vw;
+  border-bottom-right-radius: 2.5vw;
+}
+
+#login {
+  padding: 16vw 6vw;
+}
+
+#signup {
+  padding: 16vw 6vw 1.5vw 6vw;
+}
+
+#login input,
+#signup input {
+  margin-bottom: 6vw;
+  padding: 3.5vw 6vw;
+  border-width: 0.3vw;
+  border-radius: 8vw;
+}

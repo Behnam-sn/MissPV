@@ -891,6 +891,7 @@ label {
 /* login */
 #tabs {
   margin: 4vw 0 8vw 0;
+  font-size: 1vw;
 }
 
 #incard {
