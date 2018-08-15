@@ -888,6 +888,40 @@ label {
   border-radius: 0.4vw;
 }
 
+/* login */
+#tabs {
+  height: 100vh;
+  color: var(--black);
+}
+
+#incard {
+  height: 40vw;
+  width: 25vw;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.tab-deactive {
+  display: none;
+}
+
+.tab-active {
+  display: block;
+}
+
+.tab-deactive-button {
+  background-color: #a6a6a6;
+}
+
+.tab-active-button {
+  background-color: #e6e6e6;
+}
+
+#tabs .flex-fill {
+  padding: 1vw 0;
+  cursor: pointer;
+}
+
 /* freaky button */
 .product-button {
   width: 100%;
