@@ -10,14 +10,14 @@ function showTab(n) {
   var i = n;
   if (i == 0) {
     login.className = "tab-active";
-    log.className = "flex-fill tab-active-button";
+    // log.className = "flex-fill tab-active-button";
     signup.className = "tab-deactive";
-    sign.className = "flex-fill tab-deactive-button";
+    // sign.className = "flex-fill tab-deactive-button";
   } else {
     login.className = "tab-deactive";
-    log.className = "flex-fill tab-deactive-button";
+    // log.className = "flex-fill tab-deactive-button";
     signup.className = "tab-active";
-    sign.className = "flex-fill tab-active-button";
+    // sign.className = "flex-fill tab-active-button";
   }
 }
 

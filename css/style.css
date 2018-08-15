@@ -890,15 +890,14 @@ label {
 
 /* login */
 #tabs {
-  height: 100vh;
-  color: var(--black);
+  margin: 4vw 0 8vw 0;
 }
 
 #incard {
-  height: 40vw;
   width: 25vw;
   background-color: #fff;
   margin: 0 auto;
+  border-radius: 0.6vw;
 }
 
 .tab-deactive {
@@ -910,16 +909,92 @@ label {
 }
 
 .tab-deactive-button {
-  background-color: #a6a6a6;
+  background-color: white;
 }
 
 .tab-active-button {
-  background-color: #e6e6e6;
+  background-color: #ff7777;
+}
+
+#log {
+  background-color: #ff7777;
+  border-top-right-radius: 0.6vw;
+}
+
+#sign {
+  background-color: #fff;
+  border-top-left-radius: 0.6vw;
+}
+
+#sign {
+  color: var(--black);
 }
 
 #tabs .flex-fill {
   padding: 1vw 0;
   cursor: pointer;
+}
+
+#login,
+#login form,
+#login .d-flex,
+#signup,
+#signup form,
+#signup .d-flex {
+  height: 100%;
+  border-bottom-left-radius: 0.6vw;
+  border-bottom-right-radius: 0.6vw;
+}
+
+#login {
+  background-color: #ff7777;
+  padding: 5vw 2vw;
+}
+
+#signup {
+  padding: 5vw 2vw 0.8vw 2vw;
+}
+
+#login input,
+#signup input {
+  width: 100%;
+  margin-bottom: 2vw;
+  padding: 1vw 2vw;
+  border-width: 0.1vw;
+  border-style: solid;
+  border-radius: 2vw;
+  outline: none;
+}
+
+#login input {
+  color: #fff;
+  background-color: #ff7777;
+  border-color: #fff;
+}
+
+#login input[type="submit"] {
+  background-color: #fff;
+  color: #ff7777;
+  cursor: pointer;
+}
+
+#login input::placeholder {
+  color: #fff;
+}
+
+#signup input {
+  color: var(--black);
+  border-color: #ff7777;
+}
+
+#signup input[type="submit"] {
+  background-color: #ff7777;
+  color: #fff;
+  cursor: pointer;
+}
+
+#signup input::placeholder {
+  color: #999999;
 }
 
 /* freaky button */
