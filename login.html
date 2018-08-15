@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>آکادمی</title>
+    <link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16">
+    <!-- CDN Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <!-- CDN bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <!-- Local bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- Local style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="only screen and (max-width: 600px)" href="css/smallscreen.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <div id="nav-search">
+            <img src="img/Search@2x.png" alt="" onclick="search()">
+        </div>
+        <div id="hang">
+            <div class="search-line now-out" id="devo">
+                <input id="search-input" type="text" placeholder="جست و جو کنید...">
+            </div>
+        </div>
+        <a href="index.html">
+            <img src="img/Canvas.png" id="icon" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a href="index.html" class="nav-item">خانه</a>
+                <a href="academy.html" class="nav-item on">آکادمی</a>
+                <a href="contact-us.html" class="nav-item">تماس با ما</a>
+                <a href="about-us.html" class="nav-item">درباره ما</a>
+                <a href="#" class="nav-item" id="link-ex">ورود / عضویت</a>
+            </div>
+        </div>
+    </nav>
+
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-8">
+                    <div class="row" id="footer-block">
+                        <div class="col-md-8 text-center">
+                            <div class="d-flex flex-column justify-content-between" style="height: 100%;">
+                                <div class="p-2">
+                                    <div class="d-flex center" id="footer-search">
+                                        <div class="input">
+                                            <input type="text" id="ftp" placeholder="محصول خود را وارد کنید...">
+                                        </div>
+
+                                        <div class="button">
+                                            <button type="submit">
+                                                جستوجو
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-2">
+                                    <div id="soical">
+                                        <div class="d-flex justify-content-center">
+                                            <div class="p-2">
+                                                <a>
+                                                    <i class="fab fa-facebook-f fa-2x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-2">
+                                                <a>
+                                                    <i class="fab fa-twitter fa-2x"></i>
+                                                </a>
+                                            </div>
+                                            <div class="p-2">
+                                                <a>
+                                                    <i class="fab fa-instagram fa-2x"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-2">
+                                    <div id="nav">
+                                        <div class="d-flex">
+                                            <div class="p-2 flex-fill">
+                                                <a href="index.html">خانه</a>
+                                            </div>
+                                            <div class="p-2 flex-fill">
+                                                <a href="academy.html">آکادمی</a>
+                                            </div>
+                                            <div class="p-2 flex-fill">
+                                                <a href="contact-us.html">تماس با ما</a>
+                                            </div>
+                                            <div class="p-2 flex-fill">
+                                                <a href="about-us.html">درباره ما</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4" id="links">
+                            <h1 class="h4 font-weight-bold">لینک های مهم</h1>
+                            <a href="#">لورم ایپسوم متن ساختگی با تولید سادگی </a>
+                            <a href="#">لورم ایپسوم متن </a>
+                            <a href="#">لورم ایپسوم متن ساختگی با تولید</a>
+                            <a href="#">ورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</a>
+                            <a href="#">لورم ایپسوم متن ساختگی</a>
+                            <a href="#">لورم ایپسوم متن ساختگی با تولید</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="center">
+                        <img src="img/el0ncxwwdydz.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-1">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="text-center" id="copyright">
+        <p>تمام حقوق این سایت مطعلق به میس پی وی میباشد</p>
+    </div>
+
+    <script src="js/search.js"></script>
+
+</body>
+
+</html>
