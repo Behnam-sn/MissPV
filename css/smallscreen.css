@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+  width: 4vw;
+}
+
 #nav-search {
   display: block;
 }
