@@ -211,6 +211,10 @@ header p {
   /* transition: all 0.6s ease; */
 }
 
+.mySlides1 p {
+  height: 7vw;
+}
+
 .text {
   width: 100%;
 }

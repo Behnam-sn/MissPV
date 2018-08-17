@@ -139,6 +139,10 @@ header p {
   line-height: 6vw;
 }
 
+.mySlides1 p {
+  height: 30vw;
+}
+
 .dot3 {
   padding: 3vw 0;
 }
