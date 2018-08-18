@@ -1,2 +1,3 @@
 *.yml
 bootstrap/*
+node_modules/*
