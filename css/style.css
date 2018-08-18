@@ -865,6 +865,7 @@ label {
 }
 
 .summary h1 {
+  color: var(--black) !important;
   position: relative;
   box-sizing: border-box;
   padding-bottom: 1.15vw;
@@ -1000,6 +1001,51 @@ label {
 
 #signup input::placeholder {
   color: #999999;
+}
+
+/* academy article */
+#aca-ticle {
+  color: var(--black);
+  font-size: 1.1vw;
+}
+
+#aca-ticle h1 {
+  padding: 6vw 0 2vw 0;
+  font-size: 2.2vw;
+}
+
+.article-date,
+.article-source {
+  color: #b3b3b3;
+}
+
+.article-date::after,
+.article-source::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 1vw;
+  position: relative;
+  color: #ff7777;
+}
+
+.article-date::after {
+  content: "\f017";
+  right: -0.3vw;
+}
+.article-source::before {
+  content: "\f0ca";
+  bottom: -0.1vw;
+  left: 0.3vw;
+}
+
+#aca-ticle img {
+  width: 50vw;
+  margin-top: 2vw;
+}
+
+#aca-ticle .pra {
+  padding: 4vw 14vw;
+  line-height: 2.3vw;
 }
 
 /* freaky button */
