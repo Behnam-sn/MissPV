@@ -586,7 +586,8 @@ footer .container-fluid {
 .contain img {
   width: 100%;
   height: auto;
-  margin-top: 5vw;
+  position: absolute;
+  bottom: 0;
 }
 
 /* contact */
