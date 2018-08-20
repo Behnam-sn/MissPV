@@ -1049,6 +1049,63 @@ label {
   line-height: 2.3vw;
 }
 
+/* fucking shop */
+#shop {
+  background-color: white;
+  color: var(--black);
+  margin: 5vw 0;
+}
+
+#shop .fucking-table {
+  padding: 3vw 3vw;
+}
+
+#shop th,
+#shop td {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+#shop .f-left {
+  border-left: none;
+}
+
+#shop .f-right {
+  border-right: none;
+}
+
+#shop .flex-fill {
+  margin: 0 1vw;
+}
+
+#shop th {
+  background-color: #fff6f9;
+}
+
+#shop .xoxo {
+  background-color: #ff72a3;
+  color: white;
+}
+
+#shop .yoyo::before {
+  content: "مجموع";
+  font-size: 0.7vw;
+}
+
+#shop .yoyo::after {
+  content: "تومان";
+  font-size: 0.7vw;
+}
+
+#shop button {
+  background-color: #ff72a3;
+  color: #fff;
+  padding: 1vw 6vw;
+  margin: 5vw 0;
+  border: none;
+  outline: none;
+}
+
 /* freaky button */
 .product-button {
   width: 100%;
