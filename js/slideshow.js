@@ -1,5 +1,3 @@
-// Slideshow 1
-
 $(".carousel").carousel({
   interval: 4000
 });
