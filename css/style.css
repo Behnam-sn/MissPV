@@ -102,7 +102,7 @@ header {
 }
 
 .buttonInside input {
-  font-size: 0.8vw;
+  font-size: 0.9vw;
   height: 3.2vw;
   width: 100%;
   padding-right: 2vw;
@@ -113,7 +113,7 @@ header {
 
 .buttonInside button {
   color: var(--black);
-  font-size: 0.7vw;
+  font-size: 0.9vw;
   background-color: var(--main);
   color: var(--white);
   position: absolute;
@@ -168,7 +168,7 @@ header h1 {
 }
 
 header p {
-  font-size: 1vw;
+  font-size: 1.2vw;
   line-height: 1.8vw;
 }
 
@@ -177,7 +177,7 @@ header p {
 }
 
 .text p {
-  height: 8vw;
+  height: 9vw;
   margin-bottom: 0;
 }
 
@@ -194,7 +194,7 @@ header p {
 
 #slide-1 .carousel-indicators li {
   background-color: white;
-  top: 2.5vw;
+  top: 3vw;
 }
 
 #slide-1 .carousel-indicators .active {
