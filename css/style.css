@@ -1057,7 +1057,7 @@ label {
 }
 
 #shop .fucking-table {
-  padding: 3vw 3vw;
+  padding: 3vw 16vw;
 }
 
 #shop th,
@@ -1104,6 +1104,11 @@ label {
   margin: 5vw 0;
   border: none;
   outline: none;
+}
+
+#shop .table-price::after {
+  content: "تومان";
+  font-size: 0.7vw;
 }
 
 /* freaky button */
