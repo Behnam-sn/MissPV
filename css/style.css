@@ -234,18 +234,6 @@ hr {
   background-color: #b85cd6;
 }
 
-header h1 {
-  font-size: 2vw;
-  font-weight: bold;
-  margin-top: 2vw;
-}
-
-header p,
-.page {
-  font-size: 1.2vw;
-  line-height: 1.8vw;
-}
-
 #slide {
   background-color: #ffffff;
   color: var(--black);
@@ -266,14 +254,28 @@ header p,
   width: 35vw;
 }
 
-.page {
-  margin: 10vw 0 0 15vw;
-}
-
+header h1,
 .page h1 {
   font-weight: bold;
   font-size: 2vw;
+}
+
+header p,
+.page p {
+  font-size: 1.2vw;
+  line-height: 1.8vw;
+}
+
+header h1 {
+  margin-top: 2vw;
+}
+
+.page h1 {
   margin-bottom: 2vw;
+}
+
+.page {
+  margin: 10vw 0 0 15vw;
 }
 
 .page img {

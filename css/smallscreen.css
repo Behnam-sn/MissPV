@@ -65,7 +65,7 @@ header {
   background-repeat: no-repeat;
   background-size: contain;
   color: var(--black);
-  height: 175vw;
+  height: 188vw;
 }
 
 .header {
@@ -90,18 +90,8 @@ header hr {
   height: 1.5vw;
 }
 
-header h1 {
-  font-size: 5.5vw;
-  margin-top: 2vw;
-}
-
-header p {
-  font-size: 4vw;
-  line-height: 6vw;
-}
-
 .text p {
-  height: 40vw;
+  height: 57vw;
 }
 
 .dot3 {
@@ -114,7 +104,7 @@ header p {
 }
 
 #slide-1 .carousel-indicators li {
-  top: 7vw;
+  top: 5.8vw;
 }
 
 #slide-2 .carousel-indicators li {
@@ -141,14 +131,27 @@ header p {
   width: 75vw;
 }
 
-.page {
-  margin: 2vw 0 0 0;
-  font-size: 4vw;
+header h1,
+.page h1 {
+  font-size: 7vw;
+}
+
+header p,
+.page p {
+  font-size: 5vw;
+  line-height: 7vw;
+}
+
+header h1 {
+  margin-top: 0;
 }
 
 .page h1 {
-  font-size: 5vw;
-  margin-bottom: 4vw;
+  margin-bottom: 6vw;
+}
+
+.page {
+  margin: 2vw 0 0 0;
 }
 
 .page img {
@@ -156,14 +159,13 @@ header p {
 }
 
 .detail {
-  line-height: 5vw;
   margin-bottom: 4vw;
 }
 
 .page-down {
+  font-size: 4vw;
   width: 80vw;
   margin: 0 auto;
-  font-size: 3vw;
 }
 
 .page-down .price {
