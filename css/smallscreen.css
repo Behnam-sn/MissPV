@@ -140,7 +140,6 @@ header p,
 .page p {
   font-size: 5vw;
   line-height: 7vw;
-  /* text-align: justify; */
 }
 
 header h1 {
@@ -591,7 +590,7 @@ footer .container-fluid {
 }
 
 #aca-ticle h1 {
-  padding: 8vw 0;
+  padding: 8vw 7vw;
   font-size: 8vw;
 }
 
