@@ -140,6 +140,7 @@ header p,
 .page p {
   font-size: 5vw;
   line-height: 7vw;
+  /* text-align: justify; */
 }
 
 header h1 {
@@ -147,7 +148,10 @@ header h1 {
 }
 
 .page h1 {
-  margin-bottom: 6vw;
+  text-align: center;
+  margin-top: 5vw;
+  /* margin-top: 10vw; */
+  margin-bottom: 5vw;
 }
 
 .page {
