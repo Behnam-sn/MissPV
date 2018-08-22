@@ -285,6 +285,10 @@ main h1 {
   left: 0.6vw;
 }
 
+.page-down button {
+  padding: 5vw 0;
+}
+
 .product-button {
   font-size: 4vw;
   padding: 3vw 0;
