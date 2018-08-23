@@ -453,6 +453,10 @@ footer .container-fluid {
   height: 1vw;
 }
 
+.product-main .price {
+  font-size: 6.5vw;
+}
+
 .product-form {
   margin: 5vw 0 0 0;
 }
