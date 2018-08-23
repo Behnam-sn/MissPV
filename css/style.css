@@ -257,7 +257,6 @@ ol {
 
 header h1,
 .page h1 {
-  font-weight: bold;
   font-size: 2vw;
 }
 
@@ -317,7 +316,6 @@ main {
 
 main h1 {
   font-size: 1.7vw;
-  font-weight: bold;
   margin-top: 3vw;
   margin-bottom: 2vw;
 }
