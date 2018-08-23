@@ -84,7 +84,7 @@ header {
   display: none;
 }
 
-header hr {
+.text h1::after {
   margin: 5vw 0;
   border-width: 0.1vw;
   height: 1.5vw;
