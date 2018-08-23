@@ -729,7 +729,7 @@ footer .container-fluid {
   width: 100%;
   padding: 0.7vw 1vw;
   margin: 0.7vw 0;
-  border: 0.1vw solid transparent;
+  border: 0.1vw solid #ff7777;
   box-sizing: border-box;
   border-radius: 0.3vw;
 }
