@@ -600,12 +600,12 @@ footer .container-fluid {
   font-size: 8vw;
 }
 
-.article-date::after,
+.article-date::before,
 .article-source::before {
   font-size: 4vw;
 }
 
-.article-date::after {
+.article-date::before {
   right: -1.5vw;
 }
 .article-source::before {

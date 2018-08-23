@@ -1003,7 +1003,7 @@ label {
   color: #b3b3b3;
 }
 
-.article-date::after,
+.article-date::before,
 .article-source::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
@@ -1012,7 +1012,7 @@ label {
   color: #ff7777;
 }
 
-.article-date::after {
+.article-date::before {
   content: "\f017";
   right: -0.3vw;
 }
