@@ -379,6 +379,7 @@ footer .container-fluid {
 
 .contain img {
   margin-top: 0;
+  position: relative;
 }
 /* contact */
 #contact {
