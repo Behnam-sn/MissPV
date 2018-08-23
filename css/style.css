@@ -879,15 +879,17 @@ label {
 
 /* login */
 #tabs {
-  margin: 4vw 0 8vw 0;
+  height: 80vh;
   font-size: 1vw;
 }
 
 #incard {
   width: 25vw;
   background-color: #fff;
-  margin: 0 auto;
   border-radius: 0.6vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
 }
 
 .tab-deactive {

@@ -541,13 +541,14 @@ footer .container-fluid {
 
 /* login */
 #tabs {
-  margin: 10vw 0 18vw 0;
+  height: 85vh;
   font-size: 4vw;
 }
 
 #incard {
   width: 80vw;
   border-radius: 2.5vw;
+  margin-top: 15vh;
 }
 
 #log {
