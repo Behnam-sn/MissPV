@@ -373,14 +373,19 @@ footer .container-fluid {
   box-shadow: 0 3vw 6vw rgba(0, 0, 0, 0.175) !important;
 }
 
+.contain p {
+  font-size: 4.25vw;
+}
+
 .contain .h1 {
-  font-size: 8vw !important;
+  font-size: 8vw;
 }
 
 .contain img {
   margin-top: 0;
   position: relative;
 }
+
 /* contact */
 #contact {
   margin: 6vw 6vw 25vw;
@@ -590,7 +595,6 @@ footer .container-fluid {
 }
 
 /* academy article */
-
 #aca-ticle {
   font-size: 4vw;
 }
@@ -608,6 +612,7 @@ footer .container-fluid {
 .article-date::before {
   right: -1.5vw;
 }
+
 .article-source::before {
   bottom: -0.4vw;
   left: 1.5vw;
