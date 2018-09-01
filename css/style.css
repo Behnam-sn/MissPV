@@ -328,24 +328,30 @@ main h1 {
   height: auto;
 }
 
-#topic1::before {
-  content: url("../img/pills.png");
-}
-
-#topic2::before {
-  content: url("../img/venus.png");
-}
-
-#topic3::before {
-  content: url("../img/icon2.png");
-}
-
 #topic1::before,
 #topic2::before,
 #topic3::before {
+  content: "";
+  display: inline-block;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: 1.5vw;
+  width: 2vw;
+  height: 2vw;
   bottom: -0.6vw;
   left: 0.3vw;
+}
+
+#topic1::before {
+  background-image: url("../img/pills.png");
+}
+
+#topic2::before {
+  background-image: url("../img/venus.png");
+}
+
+#topic3::before {
+  background-image: url("../img/icon2.png");
 }
 
 .menu-right {

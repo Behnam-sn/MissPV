@@ -53,10 +53,7 @@ header p,
     margin: 7vw 0 0 15vw;
 }
 
-.price::before,
-.large::before,
-.absorb::before,
-.winged::before {
+.price::before {
     background-size: 1.2vw;
     width: 1.2vw;
     height: 1.2vw;
@@ -65,12 +62,22 @@ header p,
 .large::before,
 .absorb::before,
 .winged::before {
+    background-size: 0.8vw;
     bottom: -0.3vw;
     left: 0.3vw;
 }
 
 .product .col-sm-4 {
     padding: 0 1.7vw;
+}
+
+#topic1::before,
+#topic2::before,
+#topic3::before {
+    width: 2.3vw;
+    height: 2.3vw;
+    bottom: -1vw;
+    left: 0.6vw;
 }
 
 /* contact */
