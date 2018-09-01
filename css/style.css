@@ -328,6 +328,12 @@ main h1 {
   height: auto;
 }
 
+#topic1,
+#topic2,
+#topic3 {
+  margin-bottom: 0.7vw;
+}
+
 #topic1::before,
 #topic2::before,
 #topic3::before {
