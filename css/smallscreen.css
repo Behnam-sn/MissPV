@@ -262,8 +262,10 @@ main h1 {
 }
 
 .price::before {
-  position: relative;
-  bottom: -1.2vw;
+  bottom: -1.1vw;
+  background-size: 5vw;
+  width: 5vw;
+  height: 5vw;
 }
 
 .price {
@@ -272,22 +274,17 @@ main h1 {
 }
 
 .price::after {
-  font-size: 2.9vw;
+  font-size: 3.8vw;
 }
 
-.large::before {
-  bottom: -1vw;
-  left: 0.6vw;
-}
-
-.absorb::before {
-  bottom: -1vw;
-  left: 0.6vw;
-}
-
+.large::before,
+.absorb::before,
 .winged::before {
-  bottom: -1vw;
-  left: 0.6vw;
+  bottom: -0.8vw;
+  left: 0.5vw;
+  background-size: 3.5vw;
+  width: 3.5vw;
+  height: 3.5vw;
 }
 
 .page-down button {
