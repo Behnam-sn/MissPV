@@ -1,0 +1,117 @@
+nav #icon {
+    width: 9.5vw;
+    margin-right: 0.5vw;
+}
+
+nav .navbar-nav {
+    margin-right: 24%;
+}
+
+nav .nav-item {
+    font-size: 1.7vw;
+    padding: 0.9vw 1.5vw;
+    border-radius: 0.6vw;
+}
+
+.header {
+    margin: 5vw 0 27vw 0;
+}
+
+.buttonInside button {
+    top: 1vw;
+}
+
+.text p {
+    height: 14vw;
+}
+
+#slide-2 .carousel-indicators li {
+    top: 2.2vw;
+}
+
+.carousel-indicators li {
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
+#slide-1 .carousel-indicators li {
+    top: 4vw;
+}
+
+header h1,
+.page h1 {
+    font-size: 2.4vw;
+}
+
+header p,
+.page p {
+    font-size: 1.5vw;
+    line-height: 2vw;
+}
+
+.page {
+    margin: 7vw 0 0 15vw;
+}
+
+.price::before,
+.large::before,
+.absorb::before,
+.winged::before {
+    background-size: 1.2vw;
+    width: 1.2vw;
+    height: 1.2vw;
+}
+
+.large::before,
+.absorb::before,
+.winged::before {
+    bottom: -0.3vw;
+    left: 0.3vw;
+}
+
+.product .col-sm-4 {
+    padding: 0 1.7vw;
+}
+
+/* contact */
+#contact {
+    margin: 6vw 6vw 25vw;
+    border-radius: 2vw;
+}
+
+#contact .d-flex {
+    flex-direction: column !important;
+}
+
+#contact p {
+    margin: 0 !important;
+}
+
+.half {
+    width: 100%;
+}
+
+#map {
+    height: 100vw;
+    border-radius: 0 0 2vw 2vw;
+}
+
+#email::before,
+#tel::after {
+    font-size: 5vw;
+    bottom: -0.5vw;
+}
+
+#form input[type="submit"] {
+    padding: 2.5vw 0;
+    width: 100% !important;
+    margin: 3vw 0 12vw 0;
+}
+
+#form input,
+#form textarea {
+    padding: 4vw 4vw;
+    margin: 3vw 0;
+    border-width: 0.3vw;
+    border-radius: 1vw;
+}

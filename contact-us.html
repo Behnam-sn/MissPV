@@ -20,6 +20,7 @@
     <!-- Local style -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="only screen and (max-width: 600px)" href="css/smallscreen.css">
+    <link rel="stylesheet" media="only screen and (max-width: 900px) and (orientation: landscape)" href="css/landscape.css">
 
     <!-- Google Maps -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
@@ -32,190 +33,147 @@
 
                 center: new google.maps.LatLng(35.766175, 51.394566),
 
-                styles: [
-                    {
+                styles: [{
                         "elementType": "geometry",
-                        "stylers": [
-                            {
-                                "color": "#212121"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#212121"
+                        }]
                     },
                     {
                         "elementType": "labels.icon",
-                        "stylers": [
-                            {
-                                "visibility": "off"
-                            }
-                        ]
+                        "stylers": [{
+                            "visibility": "off"
+                        }]
                     },
                     {
                         "elementType": "labels.text.fill",
-                        "stylers": [
-                            {
-                                "color": "#757575"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#757575"
+                        }]
                     },
                     {
                         "elementType": "labels.text.stroke",
-                        "stylers": [
-                            {
-                                "color": "#212121"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#212121"
+                        }]
                     },
                     {
                         "featureType": "administrative",
                         "elementType": "geometry",
-                        "stylers": [
-                            {
-                                "color": "#757575"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#757575"
+                        }]
                     },
                     {
                         "featureType": "administrative.country",
                         "elementType": "labels.text.fill",
-                        "stylers": [
-                            {
-                                "color": "#9e9e9e"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#9e9e9e"
+                        }]
                     },
                     {
                         "featureType": "administrative.land_parcel",
-                        "stylers": [
-                            {
-                                "visibility": "off"
-                            }
-                        ]
+                        "stylers": [{
+                            "visibility": "off"
+                        }]
                     },
                     {
                         "featureType": "administrative.locality",
                         "elementType": "labels.text.fill",
-                        "stylers": [
-                            {
-                                "color": "#bdbdbd"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#bdbdbd"
+                        }]
                     },
                     {
                         "featureType": "poi",
                         "elementType": "labels.text.fill",
-                        "stylers": [
-                            {
-                                "color": "#757575"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#757575"
+                        }]
                     },
                     {
                         "featureType": "poi.park",
                         "elementType": "geometry",
-                        "stylers": [
-                            {
-                                "color": "#181818"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#181818"
+                        }]
                     },
                     {
                         "featureType": "poi.park",
                         "elementType": "labels.text.fill",
-                        "stylers": [
-                            {
-                                "color": "#616161"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#616161"
+                        }]
                     },
                     {
                         "featureType": "poi.park",
                         "elementType": "labels.text.stroke",
-                        "stylers": [
-                            {
-                                "color": "#1b1b1b"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#1b1b1b"
+                        }]
                     },
                     {
                         "featureType": "road",
                         "elementType": "geometry.fill",
-                        "stylers": [
-                            {
-                                "color": "#2c2c2c"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#2c2c2c"
+                        }]
                     },
                     {
                         "featureType": "road",
                         "elementType": "labels.text.fill",
-                        "stylers": [
-                            {
-                                "color": "#8a8a8a"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#8a8a8a"
+                        }]
                     },
                     {
                         "featureType": "road.arterial",
                         "elementType": "geometry",
-                        "stylers": [
-                            {
-                                "color": "#373737"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#373737"
+                        }]
                     },
                     {
                         "featureType": "road.highway",
                         "elementType": "geometry",
-                        "stylers": [
-                            {
-                                "color": "#3c3c3c"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#3c3c3c"
+                        }]
                     },
                     {
                         "featureType": "road.highway.controlled_access",
                         "elementType": "geometry",
-                        "stylers": [
-                            {
-                                "color": "#4e4e4e"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#4e4e4e"
+                        }]
                     },
                     {
                         "featureType": "road.local",
                         "elementType": "labels.text.fill",
-                        "stylers": [
-                            {
-                                "color": "#616161"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#616161"
+                        }]
                     },
                     {
                         "featureType": "transit",
                         "elementType": "labels.text.fill",
-                        "stylers": [
-                            {
-                                "color": "#757575"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#757575"
+                        }]
                     },
                     {
                         "featureType": "water",
                         "elementType": "geometry",
-                        "stylers": [
-                            {
-                                "color": "#000000"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#000000"
+                        }]
                     },
                     {
                         "featureType": "water",
                         "elementType": "labels.text.fill",
-                        "stylers": [
-                            {
-                                "color": "#3d3d3d"
-                            }
-                        ]
+                        "stylers": [{
+                            "color": "#3d3d3d"
+                        }]
                     }
                 ]
 
@@ -254,8 +212,8 @@
         <a href="index.html">
             <img src="img/Canvas.png" id="icon" alt="">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-            aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -291,22 +249,22 @@
                 <form action="">
                     <div class="container">
                         <div class="row" id="form">
-                            <div class="col-md-6">
+                            <div class="col-lg-6">
                                 <input type="text" name="" id="" placeholder="نام">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-lg-6">
                                 <input type="text" name="" id="" placeholder="نام خانوادگی">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-lg-6">
                                 <input type="tel" name="" id="" placeholder="تلفن همراه">
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-lg-6">
                                 <input type="email" name="" id="" placeholder="ایمیل">
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-lg-12">
                                 <textarea name="" id="" cols="10" rows="7" placeholder="هرگونه سوال يا مشاوره در مورد محصولي داريد، اينجا تايپ كنيد"></textarea>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-lg-12">
                                 <input type="submit" value="ارسال">
                             </div>
                         </div>
@@ -326,11 +284,11 @@
     <footer>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-1">
+                <div class="col-sm-1">
                 </div>
-                <div class="col-md-8">
+                <div class="col-sm-8">
                     <div class="row" id="footer-block">
-                        <div class="col-md-8 text-center">
+                        <div class="col-sm-8 text-center">
                             <div class="d-flex flex-column justify-content-between" style="height: 100%;">
                                 <div class="p-2">
                                     <div class="d-flex center" id="footer-search">
@@ -386,7 +344,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4" id="links">
+                        <div class="col-sm-4" id="links">
                             <h1 class="h4 font-weight-bold">لینک های مهم</h1>
                             <a href="#">لورم ایپسوم متن ساختگی با تولید سادگی </a>
                             <a href="academy.html">آکادمی</a>
@@ -397,12 +355,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-sm-2">
                     <div class="center">
                         <img src="img/el0ncxwwdydz.png" alt="">
                     </div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-sm-1">
                 </div>
             </div>
         </div>

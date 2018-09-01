@@ -136,13 +136,13 @@ header {
   display: none;
 }
 
+.text {
+  width: 100%;
+}
+
 .text p {
   height: 9vw;
   margin-bottom: 0;
-}
-
-.text {
-  width: 100%;
 }
 
 .carousel-indicators li {
@@ -389,9 +389,15 @@ main h1 {
 }
 
 .price::before {
-  content: url("../img/size-tag.png");
+  content: "";
+  display: inline-block;
   position: relative;
   bottom: -0.3vw;
+  background-image: url("../img/size-tag.png");
+  background-repeat: no-repeat;
+  background-size: 1.5vw;
+  width: 1.5vw;
+  height: 1.5vw;
 }
 
 .price {
@@ -405,25 +411,30 @@ main h1 {
   font-size: 0.9vw;
 }
 
-.large::before {
-  content: url("../img/increase-size-option.png");
+.large::before,
+.absorb::before,
+.winged::before {
+  content: "";
+  display: inline-block;
   position: relative;
   bottom: -0.2vw;
   left: 0.1vw;
+  background-repeat: no-repeat;
+  background-size: 1vw;
+  width: 1vw;
+  height: 1vw;
+}
+
+.large::before {
+  background-image: url("../img/increase-size-option.png");
 }
 
 .absorb::before {
-  content: url("../img/drops-of-two-different-sizes-stroke-symbol-for-design.png");
-  position: relative;
-  bottom: -0.2vw;
-  left: 0.1vw;
+  background-image: url("../img/drops-of-two-different-sizes-stroke-symbol-for-design.png");
 }
 
 .winged::before {
-  content: url("../img/Path 261.png");
-  position: relative;
-  bottom: -0.2vw;
-  left: 0.1vw;
+  background-image: url("../img/Path 261.png");
 }
 
 .card img {
@@ -444,8 +455,8 @@ footer img {
   direction: ltr;
 }
 
-#footer-block .col-md-4,
-#footer-block .col-md-8 {
+#footer-block .col-sm-4,
+#footer-block .col-sm-8 {
   direction: rtl;
 }
 
@@ -823,7 +834,7 @@ label {
   padding: 0 3vw;
 }
 
-#academy .col-md-3 {
+#academy .col-sm-3 {
   padding: 0 1vw;
 }
 

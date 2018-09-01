@@ -218,7 +218,7 @@ main h1 {
   font-size: 3.4vw;
 }
 
-.product .col-md-4 {
+.product .col-sm-4 {
   padding: 6vw 0;
   margin: 0 6vw;
 }
@@ -501,7 +501,7 @@ footer .container-fluid {
   padding: 0 11vw;
 }
 
-#academy .col-md-3 {
+#academy .col-sm-3 {
   padding: 0;
 }
 
