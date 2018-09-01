@@ -80,6 +80,20 @@ header p,
     left: 0.6vw;
 }
 
+/* about */
+.contain p {
+    font-size: 1.3vw;
+}
+
+.contain .h1 {
+    font-size: 3vw;
+}
+
+.contain img {
+    margin-top: 0;
+    position: absolute;
+}
+
 /* contact */
 #contact {
     margin: 6vw 6vw 25vw;
@@ -121,4 +135,17 @@ header p,
     margin: 3vw 0;
     border-width: 0.3vw;
     border-radius: 1vw;
+}
+
+/* academy */
+#headbar h1 {
+    font-size: 1.7vw;
+}
+
+.content h1 {
+    font-size: 2.2vw;
+}
+
+.content {
+    font-size: 1.5vw;
 }
