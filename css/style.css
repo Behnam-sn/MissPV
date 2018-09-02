@@ -275,6 +275,7 @@ header h1 {
 
 .page {
   margin: 10vw 0 0 15vw;
+  font-size: 1.1vw;
 }
 
 .page img {
@@ -287,7 +288,6 @@ header h1 {
 }
 
 .page-down {
-  font-size: 1.1vw;
   width: 25vw;
   margin: 0 auto;
 }
@@ -319,18 +319,10 @@ main h1 {
   margin-bottom: 2vw;
 }
 
-#head-bar h2 {
-  font-size: 1.3vw;
-}
-
-#header-bar img {
-  width: 100%;
-  height: auto;
-}
-
 #topic1,
 #topic2,
 #topic3 {
+  font-size: 1.3vw;
   margin-bottom: 0.7vw;
 }
 

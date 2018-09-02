@@ -51,6 +51,7 @@ header p,
 
 .page {
     margin: 7vw 0 0 15vw;
+    font-size: 1.5vw;
 }
 
 .price::before {
@@ -67,8 +68,18 @@ header p,
     left: 0.3vw;
 }
 
+main h1 {
+    font-size: 2.1vw;
+}
+
 .product .col-sm-4 {
     padding: 0 1.5vw;
+}
+
+#topic1,
+#topic2,
+#topic3 {
+    font-size: 1.7vw;
 }
 
 #topic1::before,
@@ -78,6 +89,34 @@ header p,
     height: 2.3vw;
     bottom: -1vw;
     left: 0.6vw;
+}
+
+.card-img-top {
+    bottom: 21vw;
+}
+
+.card-title {
+    font-size: 1.7vw;
+}
+
+.card-text {
+    font-size: 1.1vw;
+}
+
+#footer-block a {
+    font-size: 1.4vw;
+}
+
+#footer-search {
+    font-size: 1.2vw;
+}
+
+#copyright p {
+    font-size: 1.2vw;
+}
+
+.product-button {
+    font-size: 1.5vw;
 }
 
 /* about */
