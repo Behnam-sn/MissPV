@@ -189,8 +189,12 @@ main h1 {
   font-size: 1.7vw;
 }
 
-/* academy article */
+.summary p {
+  font-size: 1.7vw;
+  line-height: 2.6vw;
+}
 
+/* academy article */
 #aca-ticle h1 {
   font-size: 3vw;
 }
