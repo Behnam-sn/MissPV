@@ -617,3 +617,40 @@ footer .container-fluid {
   padding: 16vw 10vw;
   line-height: 7vw;
 }
+
+/* fucking shop */
+#shop {
+  margin: 10vw 0vw;
+  font-size: 1.9vw;
+}
+
+#shop .fucking-table {
+  padding: 10vw 2vw;
+}
+
+#shop td,
+#shop th {
+  padding: 3vw;
+}
+
+#shop .large::before,
+#shop .absorb::before,
+#shop .winged::before {
+  bottom: 0;
+  left: 0.3vw;
+  background-size: 1.3vw;
+  width: 1.3vw;
+  height: 1.3vw;
+}
+
+#shop .yoyo::before,
+#shop .yoyo::after,
+#shop .table-price::after {
+  font-size: 1.2vw;
+}
+
+#shop button {
+  font-size: 2.3vw;
+  padding: 2.5vw 8vw;
+  margin: 3vw 0;
+}

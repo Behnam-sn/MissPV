@@ -1059,6 +1059,7 @@ label {
   background-color: white;
   color: var(--black);
   margin: 5vw 0vw;
+  font-size: 1vw;
 }
 
 #shop .fucking-table {
@@ -1097,7 +1098,8 @@ label {
   font-size: 0.7vw;
 }
 
-#shop .yoyo::after {
+#shop .yoyo::after,
+#shop .table-price::after {
   content: "تومان";
   font-size: 0.7vw;
 }
@@ -1109,11 +1111,6 @@ label {
   margin: 5vw 0;
   border: none;
   outline: none;
-}
-
-#shop .table-price::after {
-  content: "تومان";
-  font-size: 0.7vw;
 }
 
 /* freaky button */
