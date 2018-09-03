@@ -773,11 +773,11 @@ label {
   border: none;
 }
 
-.rating>input {
+.rating > input {
   display: none;
 }
 
-.rating>label:before {
+.rating > label:before {
   margin: 5px;
   font-size: 1.25em;
   font-family: "Font Awesome 5 Free";
@@ -786,26 +786,26 @@ label {
   font-weight: 900;
 }
 
-.rating>.half:before {
+.rating > .half:before {
   content: "\f089";
   position: absolute;
   font-weight: 900;
 }
 
-.rating>label {
+.rating > label {
   color: #ddd;
 }
 
-.rating>input:checked~label,
-.rating:not(:checked)>label:hover,
-.rating:not(:checked)>label:hover~label {
+.rating > input:checked ~ label,
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
   color: #ffd700;
 }
 
-.rating>input:checked+label:hover,
-.rating>input:checked~label:hover,
-.rating>label:hover~input:checked~label,
-.rating>input:checked~label:hover~label {
+.rating > input:checked + label:hover,
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label,
+.rating > input:checked ~ label:hover ~ label {
   color: #ffed85;
 }
 
@@ -1058,11 +1058,11 @@ label {
 #shop {
   background-color: white;
   color: var(--black);
-  margin: 5vw 0;
+  margin: 5vw 0vw;
 }
 
 #shop .fucking-table {
-  padding: 3vw 16vw;
+  padding: 3vw 5vw;
 }
 
 #shop th,
@@ -1122,10 +1122,12 @@ label {
   font-size: 1vw;
   padding: 1.4vw 0;
   color: var(--white);
-  background-image: linear-gradient(to right,
+  background-image: linear-gradient(
+    to right,
     #fd3077 0%,
     #ff7777 40%,
-    #fd3077 100%);
+    #fd3077 100%
+  );
   border: none;
   outline: none;
   margin-top: 1vw;
@@ -1135,13 +1137,11 @@ label {
   -webkit-transition: all 0.7s ease-in-out;
   background-size: 300% 100%;
 }
-
 .product-button:focus {
   background-position: 100% 0;
   outline: 0;
   box-shadow: 0 0 0 0.2vw #ff9999;
 }
-
 .product-button:hover {
   background-position: 100% 0;
 }
