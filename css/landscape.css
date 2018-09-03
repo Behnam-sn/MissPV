@@ -194,6 +194,10 @@ main h1 {
   line-height: 2.6vw;
 }
 
+#headbar::after {
+  bottom: -1.1vw;
+}
+
 /* academy article */
 #aca-ticle h1 {
   font-size: 3vw;
