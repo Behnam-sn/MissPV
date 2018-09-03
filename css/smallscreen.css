@@ -429,16 +429,14 @@ footer .container-fluid {
   padding: 1vw 6vw;
 }
 
-.product-main .fo {
+.fo {
   margin: 0 0 8vw 0;
+  font-size: 4vw;
+  padding: 0 5vw;
 }
 
-.product-main .foff {
-  margin-top: 6vw;
-}
-
-.product-main .foff p {
-  font-size: 3.6vw;
+.fo h1 {
+  font-size: 8vw;
 }
 
 .line {
