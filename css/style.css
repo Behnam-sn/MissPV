@@ -476,8 +476,8 @@ footer img {
 }
 
 footer .container-fluid {
-  padding-top: 10vh;
-  padding-bottom: 5vh;
+  padding-top: 5vw;
+  padding-bottom: 2vw;
 }
 
 #footer-search {
@@ -548,7 +548,7 @@ footer .container-fluid {
 }
 
 #copyright {
-  height: 5vh;
+  height: 2.6vw;
   background-color: #ca235d;
   display: flex;
   justify-content: center;

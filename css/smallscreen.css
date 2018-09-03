@@ -305,8 +305,8 @@ footer img {
 }
 
 footer .container-fluid {
-  padding-top: 5vh;
-  padding-bottom: 0vh;
+  padding-top: 8vw;
+  padding-bottom: 0;
 }
 
 #footer-search {
@@ -335,6 +335,10 @@ footer .container-fluid {
 
 #soical a {
   margin: 0 6vw;
+}
+
+#copyright {
+  height: 9vw;
 }
 
 #copyright p {

@@ -1,0 +1,125 @@
+nav #icon {
+    width: 9.5vw;
+    margin-right: 0.5vw;
+}
+
+nav .navbar-nav {
+    margin-right: 24%;
+}
+
+nav .nav-item {
+    font-size: 1.7vw;
+    padding: 0.9vw 1.5vw;
+    border-radius: 0.6vw;
+}
+
+.header {
+    margin: 5vw 0 27vw 0;
+}
+
+.buttonInside button {
+    top: 0.7vw;
+}
+
+.text p {
+    height: 14vw;
+}
+
+#slide-2 .carousel-indicators li {
+    top: 2.2vw;
+}
+
+.carousel-indicators li {
+    height: 1.5vw;
+    width: 1.5vw;
+}
+
+#slide-1 .carousel-indicators li {
+    top: 4vw;
+}
+
+header h1,
+.page h1 {
+    font-size: 2.4vw;
+}
+
+header p,
+.page p {
+    font-size: 1.5vw;
+    line-height: 2vw;
+}
+
+.page {
+    margin: 7vw 0 0 15vw;
+    font-size: 1.5vw;
+}
+
+.price::before {
+    background-size: 1.2vw;
+    width: 1.2vw;
+    height: 1.2vw;
+}
+
+.large::before,
+.absorb::before,
+.winged::before {
+    background-size: 0.9vw;
+    bottom: -0.2vw;
+    left: 0.2vw;
+}
+
+main h1 {
+    font-size: 2.1vw;
+}
+
+.product .col-sm-4 {
+    padding: 0 1.5vw;
+}
+
+#topic1,
+#topic2,
+#topic3 {
+    font-size: 1.7vw;
+}
+
+#topic1::before,
+#topic2::before,
+#topic3::before {
+    width: 2.3vw;
+    height: 2.3vw;
+    bottom: -1vw;
+    left: 0.6vw;
+}
+
+.card-img-top {
+    bottom: 21vw;
+}
+
+.card-title {
+    font-size: 1.7vw;
+}
+
+.card-text {
+    font-size: 1.1vw;
+}
+
+footer .container-fluid {
+    padding-top: 5vw;
+    padding-bottom: 3vw;
+}
+
+#footer-block a {
+    font-size: 1.4vw;
+}
+
+#footer-search {
+    font-size: 1.2vw;
+}
+
+#copyright p {
+    font-size: 1.2vw;
+}
+
+.product-button {
+    font-size: 1.4vw;
+}
