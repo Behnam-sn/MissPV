@@ -523,6 +523,11 @@ footer .container-fluid {
   height: 0.6vw;
 }
 
+.summary p {
+  font-size: 4vw;
+  line-height: 6.5vw;
+}
+
 .summary .link {
   margin-top: 6vw;
 }
