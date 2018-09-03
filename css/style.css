@@ -571,11 +571,11 @@ footer .container-fluid {
 .contain .center {
   flex-direction: column !important;
   align-items: baseline !important;
-  padding: 5vw 0;
+  padding: 3vw 0;
 }
 
 .contain p {
-  font-size: 1vw;
+  font-size: 1.1vw;
   margin: 0;
   white-space: pre-line;
 }
