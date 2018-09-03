@@ -295,3 +295,18 @@ main h1 {
 .product-form textarea {
   font-size: 1.5vw;
 }
+
+/* fucking shop */
+#shop {
+  font-size: 1.6vw;
+}
+
+#shop .yoyo::before,
+#shop .yoyo::after,
+#shop .table-price::after {
+  font-size: 1vw;
+}
+
+#shop button {
+  font-size: 2vw;
+}
