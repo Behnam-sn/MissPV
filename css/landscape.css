@@ -186,5 +186,25 @@ main h1 {
 }
 
 .content {
+  font-size: 1.7vw;
+}
+
+/* academy article */
+
+#aca-ticle h1 {
+  font-size: 3vw;
+}
+
+#aca-ticle {
   font-size: 1.5vw;
+}
+
+#aca-ticle img {
+  width: 100vw;
+}
+
+#aca-ticle .pra {
+  padding: 4vw 14vw;
+  font-size: 2vw;
+  line-height: 3.5vw;
 }
