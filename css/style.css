@@ -994,6 +994,10 @@ label {
   color: #fff;
 }
 
+#login a:hover {
+  color: #007bff;
+}
+
 #signup input {
   color: var(--black);
   border-color: #ff7777;
