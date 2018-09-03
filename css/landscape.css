@@ -208,3 +208,53 @@ main h1 {
   font-size: 2vw;
   line-height: 3.5vw;
 }
+
+/* login */
+#tabs {
+  height: 140vh;
+  font-size: 2.5vw;
+}
+
+#incard {
+  width: 50vw;
+  border-radius: 1.5vw;
+  margin-top: 10vh;
+}
+
+#log {
+  border-top-right-radius: 1.5vw;
+}
+
+#sign {
+  border-top-left-radius: 1.5vw;
+}
+
+#tabs .flex-fill {
+  padding: 2vw 0;
+}
+
+#login,
+#login form,
+#login .d-flex,
+#signup,
+#signup form,
+#signup .d-flex {
+  border-bottom-left-radius: 1.5vw;
+  border-bottom-right-radius: 1.5vw;
+}
+
+#login {
+  padding: 10vw 3vw;
+}
+
+#signup {
+  padding: 10vw 3vw 6vw 3vw;
+}
+
+#login input,
+#signup input {
+  margin-bottom: 3vw;
+  padding: 2vw 4vw;
+  border-width: 0.3vw;
+  border-radius: 8vw;
+}
