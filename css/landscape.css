@@ -135,8 +135,13 @@ main h1 {
 
 /* contact */
 #contact {
+  font-size: 1.8vw;
   margin: 6vw 6vw 15vw;
   border-radius: 2vw;
+}
+
+#contact .h4 {
+  font-size: 3.5vw;
 }
 
 #contact .d-flex {
@@ -159,7 +164,7 @@ main h1 {
 #email::before,
 #tel::after {
   font-size: 5vw;
-  bottom: -0.5vw;
+  bottom: -1.2vw;
 }
 
 #form input[type="submit"] {
@@ -171,7 +176,7 @@ main h1 {
 #form input,
 #form textarea {
   padding: 2vw 4vw;
-  margin: 3vw 0;
+  margin: 2vw 0;
   border-width: 0.3vw;
   border-radius: 1vw;
 }
