@@ -180,3 +180,25 @@ footer .container-fluid {
     border-width: 0.3vw;
     border-radius: 1vw;
 }
+
+/* academy */
+#headbar h1 {
+    font-size: 2.5vw;
+}
+
+.content h1 {
+    font-size: 2.2vw;
+}
+
+.content {
+    font-size: 2vw;
+}
+
+.summary p {
+    font-size: 2vw;
+    line-height: 2.8vw;
+}
+
+#headbar::after {
+    bottom: -1.1vw;
+}
