@@ -1037,17 +1037,16 @@ label {
   font-size: 1vw;
   position: relative;
   color: #ff7777;
+  bottom: -0.1vw;
+  right: -0.3vw;
 }
 
 .article-date::before {
   content: "\f017";
-  right: -0.3vw;
 }
 
 .article-source::before {
   content: "\f0ca";
-  bottom: -0.1vw;
-  left: 0.3vw;
 }
 
 #aca-ticle img {

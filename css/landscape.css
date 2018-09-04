@@ -212,6 +212,13 @@ main h1 {
   font-size: 1.5vw;
 }
 
+.article-date::before,
+.article-source::before {
+  font-size: 1.3vw;
+  bottom: -0.1vw;
+  right: -0.5vw;
+}
+
 #aca-ticle img {
   width: 100vw;
 }

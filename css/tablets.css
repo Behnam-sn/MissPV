@@ -202,3 +202,29 @@ footer .container-fluid {
 #headbar::after {
     bottom: -1.1vw;
 }
+
+/* academy article */
+#aca-ticle h1 {
+    font-size: 3.4vw;
+}
+
+#aca-ticle {
+    font-size: 1.6vw;
+}
+
+.article-date::before,
+.article-source::before {
+    font-size: 1.4vw;
+    bottom: -0.1vw;
+    right: -0.5vw;
+}
+
+#aca-ticle img {
+    width: 100vw;
+}
+
+#aca-ticle .pra {
+    padding: 4vw 14vw;
+    font-size: 2.4vw;
+    line-height: 3.9vw;
+}
