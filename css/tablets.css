@@ -123,3 +123,55 @@ footer .container-fluid {
 .product-button {
     font-size: 1.4vw;
 }
+
+/* about */
+.contain p {
+    font-size: 1.6vw;
+}
+
+.contain .h1 {
+    font-size: 3.3vw;
+}
+
+/* contact */
+#contact {
+    margin: 6vw 6vw 15vw;
+    border-radius: 2vw;
+}
+
+#contact .d-flex {
+    flex-direction: column !important;
+}
+
+#contact p {
+    margin: 0 !important;
+}
+
+.half {
+    width: 100%;
+}
+
+#map {
+    height: 100vw;
+    border-radius: 0 0 2vw 2vw;
+}
+
+#email::before,
+#tel::after {
+    font-size: 5vw;
+    bottom: -0.5vw;
+}
+
+#form input[type="submit"] {
+    padding: 2.5vw 0;
+    width: 100% !important;
+    margin: 3vw 0 12vw 0;
+}
+
+#form input,
+#form textarea {
+    padding: 2vw 4vw;
+    margin: 3vw 0;
+    border-width: 0.3vw;
+    border-radius: 1vw;
+}
