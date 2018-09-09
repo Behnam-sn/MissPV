@@ -57,25 +57,25 @@ body {
   width: 100%;
 }
 
-#admin .circle {
+#admin #circle {
   background-color: #fff;
   height: 30rem;
   width: 30rem;
   border-radius: 50%;
 }
 
-#admin .inside {
+#admin #inside {
   position: relative;
   bottom: -2rem;
 }
 
-#admin .circle img {
+#admin #circle img {
   height: 13rem;
   width: auto;
   margin-bottom: 1rem;
 }
 
-#admin .circle input {
+#admin #circle input {
   color: #4d4d4d;
   width: 18rem;
   padding: 0.5rem;
@@ -85,11 +85,11 @@ body {
   margin-bottom: 1rem;
 }
 
-#admin .circle input:focus {
+#admin #circle input:focus {
   border-color: #007bff;
 }
 
-#admin .circle input[type="submit"] {
+#admin #circle input[type="submit"] {
   font-size: 1.3rem;
   width: 8rem;
   background-color: #5dc1f3;
@@ -97,14 +97,14 @@ body {
   cursor: pointer;
 }
 
-#admin .circle input[type="submit"]:hover {
+#admin #circle input[type="submit"]:hover {
   background-color: #88d2f6;
 }
 
-#admin .circle input[type="submit"]:focus {
+#admin #circle input[type="submit"]:focus {
   background-color: #41b6f1;
 }
 
-#admin .circle input::placeholder {
+#admin #circle input::placeholder {
   color: #999999;
 }
