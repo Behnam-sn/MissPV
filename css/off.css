@@ -1,14 +1,14 @@
 /* NOVA is here, bitch */
 html {
-    font-size: 10px;
+    font-size: 3.2vw;
     font-family: Yekan;
     direction: rtl;
     text-align: right;
 }
 
-@media screen and (min-width: 321px) {
+@media screen and (min-width: 600px) {
     html {
-        font-size: calc(0.4545454545vw + 10.5454545455px);
+        font-size: calc(0.7vw + 10px);
     }
 }
 
