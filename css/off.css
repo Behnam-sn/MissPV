@@ -37,14 +37,12 @@ body {
 .img-background-login {
   background-image: url(../img/Vecteezy-3.0.png);
   background-size: 100% 100%;
-  background-color: #fff;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: #fff;
   position: fixed;
   width: 100%;
   height: 100%;
-  z-index: 9999;
-  padding: 0px;
 }
 
 #admin .d-flex {
@@ -72,12 +70,12 @@ body {
 
 #admin .mask input {
   color: #4d4d4d;
-  margin-bottom: 1rem;
   width: 18rem;
   padding: 0.5rem;
   border: transparent 0.1rem solid;
   border-radius: 0.4rem;
   outline: none;
+  margin-bottom: 1rem;
 }
 
 #admin .mask input:focus {
@@ -85,7 +83,6 @@ body {
 }
 
 #admin .mask input[type="submit"] {
-  margin: 0;
   font-size: 1.3rem;
   width: 8rem;
   background-color: #5dc1f3;
