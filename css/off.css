@@ -1,10 +1,18 @@
 /* NOVA is here, bitch */
+@font-face {
+  font-family: Yekan;
+  src: url(../font/Bold.ttf);
+}
+
 html {
   font-size: 3.2vw;
   /* font-size: 12px; */
-  font-family: Yekan;
   direction: rtl;
   text-align: right;
+}
+
+body {
+  font-family: Yekan;
 }
 
 @media screen and (min-width: 600px) {
@@ -69,9 +77,15 @@ html {
   padding: 0.5rem;
   border: transparent 0.1rem solid;
   border-radius: 0.4rem;
+  outline: none;
+}
+
+#admin .mask input:focus {
+  border-color: #007bff;
 }
 
 #admin .mask input[type="submit"] {
+  margin: 0;
   font-size: 1.3rem;
   width: 8rem;
   background-color: #5dc1f3;
