@@ -27,14 +27,14 @@ body {
     /* font-size: 16px; */
   }
 
-  .img-background-login {
+  #admin {
     background-image: url(../img/Vecteezy-2.0.png) !important;
     background-size: 100% !important;
   }
 }
 
 /* admin */
-.img-background-login {
+#admin {
   background-image: url(../img/Vecteezy-3.0.png);
   background-size: 100% 100%;
   background-position: center;
@@ -50,25 +50,25 @@ body {
   width: 100%;
 }
 
-#admin .mask {
+#admin .circle {
   background-color: #fff;
   height: 30rem;
   width: 30rem;
   border-radius: 50%;
 }
 
-#admin .off {
+#admin .inside {
   position: relative;
   bottom: -2rem;
 }
 
-#admin .mask img {
+#admin .circle img {
   height: 13rem;
   width: auto;
   margin-bottom: 1rem;
 }
 
-#admin .mask input {
+#admin .circle input {
   color: #4d4d4d;
   width: 18rem;
   padding: 0.5rem;
@@ -78,11 +78,11 @@ body {
   margin-bottom: 1rem;
 }
 
-#admin .mask input:focus {
+#admin .circle input:focus {
   border-color: #007bff;
 }
 
-#admin .mask input[type="submit"] {
+#admin .circle input[type="submit"] {
   font-size: 1.3rem;
   width: 8rem;
   background-color: #5dc1f3;
@@ -90,14 +90,14 @@ body {
   cursor: pointer;
 }
 
-#admin .mask input[type="submit"]:hover {
+#admin .circle input[type="submit"]:hover {
   background-color: #88d2f6;
 }
 
-#admin .mask input[type="submit"]:focus {
+#admin .circle input[type="submit"]:focus {
   background-color: #41b6f1;
 }
 
-#admin .mask input::placeholder {
+#admin .circle input::placeholder {
   color: #999999;
 }
