@@ -1119,6 +1119,67 @@ label {
   outline: none;
 }
 
+/* admin */
+.img-background-login {
+  background-color: #fff;
+  background-image: url(../img/Vecteezy-2.0.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  padding: 0px;
+}
+
+#admin .d-flex {
+  height: 100%;
+  width: 100%;
+}
+
+#admin .mask {
+  background-color: #fff;
+  padding: 2vw 6vw;
+  border-radius: 50%;
+}
+
+#admin .mask img {
+  height: 13vw;
+  width: auto;
+  margin-bottom: 1vw;
+}
+
+#admin .mask input {
+  font-size: 1vw;
+  color: var(--black);
+  margin-bottom: 1vw;
+  width: 18vw;
+  padding: 0.5vw;
+  border: transparent 0.1vw solid;
+  border-radius: 0.4vw;
+}
+
+#admin .mask input[type="submit"] {
+  font-size: 1.3vw;
+  width: 7vw;
+  background-color: #5dc1f3;
+  color: #fff;
+  cursor: pointer;
+}
+
+#admin .mask input[type="submit"]:hover {
+  background-color: #88d2f6;
+}
+
+#admin .mask input[type="submit"]:focus {
+  background-color: #41b6f1;
+}
+
+#admin .mask input::placeholder {
+  color: #999999;
+}
+
 /* freaky button */
 .product-button {
   width: 100%;

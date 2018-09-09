@@ -322,3 +322,32 @@ footer .container-fluid {
 #shop button {
   font-size: 2vw;
 }
+
+/* admin */
+.img-background-login {
+  background-image: url(../img/Vecteezy-3.0.png);
+  background-size: 100% 100%;
+}
+
+#admin .mask {
+  padding: 2vw 14vw;
+}
+
+#admin .mask img {
+  height: 30vw;
+  margin-bottom: 3vw;
+}
+
+#admin .mask input {
+  font-size: 3vw;
+  margin-bottom: 3vw;
+  width: 50vw;
+  padding: 2vw;
+  border-width: 0.5vw;
+  border-radius: 2vw;
+}
+
+#admin .mask input[type="submit"] {
+  font-size: 3.6vw;
+  width: 20vw;
+}
