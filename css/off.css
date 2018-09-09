@@ -1,0 +1,90 @@
+/* NOVA is here, bitch */
+html {
+    font-size: 10px;
+    font-family: Yekan;
+    direction: rtl;
+    text-align: right;
+}
+
+@media screen and (min-width: 321px) {
+    html {
+        font-size: calc(0.4545454545vw + 10.5454545455px);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    html {
+        font-size: 1vw;
+    }
+
+    .img-background-login {
+        background-image: url(../img/Vecteezy-2.0.png) !important;
+        background-size: 100% !important;
+    }
+}
+
+/* admin */
+.img-background-login {
+    background-image: url(../img/Vecteezy-3.0.png);
+    background-size: 100% 100%;
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    padding: 0px;
+}
+
+#admin .d-flex {
+    height: 100%;
+    width: 100%;
+}
+
+#admin .mask {
+    background-color: #fff;
+    height: 30rem;
+    width: 30rem;
+    border-radius: 50%;
+}
+
+#admin .off {
+    position: relative;
+    bottom: -2rem;
+}
+
+#admin .mask img {
+    height: 13rem;
+    width: auto;
+    margin-bottom: 1rem;
+}
+
+#admin .mask input {
+    color: #4d4d4d;
+    margin-bottom: 1rem;
+    width: 18rem;
+    padding: 0.5rem;
+    border: transparent 0.1rem solid;
+    border-radius: 0.4rem;
+}
+
+#admin .mask input[type="submit"] {
+    font-size: 1.3rem;
+    width: 8rem;
+    background-color: #5dc1f3;
+    color: #fff;
+    cursor: pointer;
+}
+
+#admin .mask input[type="submit"]:hover {
+    background-color: #88d2f6;
+}
+
+#admin .mask input[type="submit"]:focus {
+    background-color: #41b6f1;
+}
+
+#admin .mask input::placeholder {
+    color: #999999;
+}
