@@ -1,9 +1,4 @@
 /* NOVA is here, bitch */
-@font-face {
-  font-family: Yekan;
-  src: url(../font/Bold.ttf);
-}
-
 html {
   font-size: 3vw;
   /* font-size: 12px; */
@@ -11,13 +6,15 @@ html {
   text-align: right;
 }
 
-body {
-  font-family: Yekan;
-}
-
 @media screen and (min-width: 600px) {
   html {
     font-size: calc(0.6666666667vw + 10px);
+  }
+}
+
+@media screen and (max-height: 600px) and (orientation: landscape) {
+  html {
+    font-size: 1.5vw;
   }
 }
 
@@ -31,6 +28,15 @@ body {
     background-image: url(../img/Vecteezy-2.0.png) !important;
     background-size: 100% !important;
   }
+}
+
+@font-face {
+  font-family: Yekan;
+  src: url(../font/Bold.ttf);
+}
+
+body {
+  font-family: Yekan;
 }
 
 .shadow {
