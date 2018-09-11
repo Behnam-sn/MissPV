@@ -1,0 +1,15 @@
+@mixin shadow($color: rgba(0, 0, 0, 0.15)) {
+    -webkit-appearance: none;
+    -webkit-box-shadow: 0 0.5rem 1rem $color !important;
+    -moz-box-shdow: 0 0.5rem 1rem $color !important;
+    box-shadow: 0 0.5rem 1rem $color !important;
+}
+
+@mixin border($width:0.1rem, $color: transparent, $radius: 0.4rem) {
+    border: {
+        width: $width;
+        color: $color;
+        radius: $radius;
+        style: solid;
+    }
+}

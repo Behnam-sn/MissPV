@@ -19,10 +19,79 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- Local style -->
     <link rel="stylesheet" href="css/off.css">
-
+</head>
 
 <body>
+    <div id="dashboard">
+        <div class="container-fluid red" id="top">
+            <div class="row">
+                <div class="col-sm-4 headbar">
+                    <div class="d-flex">
+                        <img src="img/Canvas.png" alt="">
+                        <div class="date">
+                            <h1 class="h4">پرسه</h1>
+                            <h1 class="h5" id="PerisanDate">سه شنبه 20 شهریور 1397</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 headbar">
+                    <div class="d-flex flex-row-reverse">
 
+                        <div>
+                            <a id="exitLink2" class="usernameadmin opcaity" href="javascript:__doPostBack(&#39;ctl00$exitLink2&#39;,&#39;&#39;)">
+                                <span>خروج</span>
+                                <img class="icon icon-home-master" src="img/IconExit.png">
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="AdminManagment.aspx?EditMode=1" id="UserLink" class="opcaity">
+                                <span id="UserAdminText">امیر صالحی</span>
+                                <img class="icon" src="img/IconPerson.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center red" id="nav-right">
+            Lorem
+        </div>
+
+        <div class="contain text-center" id="main">
+            <div class="head">
+                <h1 class="h2">داشبورد</h1>
+                <img src="img/ImgHR.png" alt="">
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <a href="UserManagmentIndex.aspx" class="opacity">
+                                <div class="card bg-primary p-20 opacity fixpaduser">
+                                    <div class="media-body media-text-right">
+                                        <img src="img/CartImage1.png" class="img-fluid">
+                                        <p class="m-b-0 text-center margin-top-5px">
+                                            <span id="MainContent_UserNumber" class="NumberCart">7</span>
+                                            تعداد کاربران
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                        </a>
+
+                    </div>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-3"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
 </body>
 
 </html>
